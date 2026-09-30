@@ -1,0 +1,45 @@
+FICHA TÉCNICA DE RIKOGOL
+============================================================
+
+Juego:              Rikogol
+Desarrollo:         Deniz Durusoy
+Edición:            Deniz Durusoy
+País:               Turquía
+Lanzamiento:        14 de septiembre de 2026 (Acceso anticipado)
+Estado:             Acceso anticipado
+Versión actual:     v1.4, actualización Día de Partido
+Plataformas:        Windows, macOS (Steam)
+Jugadores:          Del 1v1 al 11v11 en línea, con hasta 24 personas por partido; el modo Contra Bots funciona sin conexión
+Idiomas:            Inglés, turco, alemán, ruso, portugués (Brasil), español (Latinoamérica), francés
+Logros:             65 Logros de Steam
+Steam:              https://store.steampowered.com/app/4492690/Rikogol/
+Sitio web:          https://rikogol.com
+Contacto de prensa: steam@rikogol.com
+
+DESCRIPCIÓN
+------------------------------------------------------------
+Fútbol arcade con física real, en línea con tus amigos. Del 1v1 al clásico 11v11, con un director técnico por lado. Dos controles, cero estadísticas, sin faltas ni fuera de lugar: solo habilidad. Invita desde Steam y en segundos estás en la cancha, o juega ya contra bots de tres niveles.
+
+Rikogol es fútbol arcade para jugar en línea con amigos. Bastan dos controles —moverse y patear— y un motor de física se encarga del resto: cada pase, cada rebote en la pared, cada tiro que roza el palo y entra. No hay estadísticas de jugadores, ni dados, ni faltas, ni fuera de lugar.
+
+Los partidos van de duelos uno contra uno en una cancha diminuta a clásicos 11v11 en un estadio lleno, con hasta 24 personas por partido. El toque propio del juego es el director técnico: un jugador de cada equipo puede salir de la cancha, cambiar la formación a mitad de partido y guiar a los suyos con marcas y flechas que solo su equipo puede ver.
+
+Los amigos se unen directamente desde la lista de amigos de Steam, y los partidos funcionan a través de Steam Relay, sin abrir puertos ni crear cuentas extra. Si la sala no se llena, Entrenamiento › Contra Bots ofrece un partido de verdad contra bots de dificultad Fácil, Media o Difícil, incluso sin conexión.
+
+CARACTERÍSTICAS PRINCIPALES
+------------------------------------------------------------
+- Fútbol arcade con física real y dos controles: moverse y patear
+- Del duelo 1v1 al clásico 11v11, hasta 24 personas por partido
+- Rol de director técnico: formaciones, marcas y flechas que solo ve tu equipo
+- Bots de tres niveles: sin conexión en Entrenamiento y para llenar lugares vacíos en las salas en línea
+- Invitaciones de Steam, buscador de partidas y chat de sala y de partido, con conexión por Steam Relay
+- Cinco atmósferas, cuatro estadios y una afición que crece con la cantidad de jugadores
+- Paletas para daltónicos, modo de alto contraste y controles reasignables
+- 65 Logros de Steam, Steam Cloud y 7 idiomas
+
+QUIÉN HACE RIKOGOL
+------------------------------------------------------------
+Deniz Durusoy desarrolla y publica Rikogol de forma independiente desde Turquía. El juego salió en Acceso anticipado en Steam el 14 de septiembre de 2026 y desde entonces se actualiza con regularidad.
+
+Kit de prensa: https://rikogol.com/es/press/
+Deniz Durusoy en Steam: https://store.steampowered.com/developer/denizdurusoy

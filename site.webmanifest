@@ -1,0 +1,20 @@
+{
+  "name": "Rikogol",
+  "short_name": "Rikogol",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
+  "icons": [
+    {
+      "src": "/assets/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

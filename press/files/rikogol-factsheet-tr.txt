@@ -1,0 +1,45 @@
+RIKOGOL KÜNYESİ
+============================================================
+
+Oyun:            Rikogol
+Geliştirici:     Deniz Durusoy
+Yayıncı:         Deniz Durusoy
+Konum:           Türkiye
+Çıkış tarihi:    14 Eylül 2026 (Erken Erişim)
+Durum:           Erken Erişim
+Güncel sürüm:    v1.4, Maç Günü güncellemesi
+Platformlar:     Windows, macOS (Steam)
+Oyuncular:       Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır
+Diller:          İngilizce, Türkçe, Almanca, Rusça, Brezilya Portekizcesi, Latin Amerika İspanyolcası, Fransızca
+Başarımlar:      65 Steam Başarımı
+Steam:           https://store.steampowered.com/app/4492690/Rikogol/
+Web sitesi:      https://rikogol.com
+Basın iletişimi: steam@rikogol.com
+
+TANITIM
+------------------------------------------------------------
+Gerçek fizikli arcade futbol, arkadaşlarınla online. 1v1 düellodan, iki tarafta birer teknik direktörün olduğu 11v11 derbiye. İki tuş, sıfır istatistik, faul yok, ofsayt yok — sadece yetenek. Steam'den davet et, saniyeler içinde sahadasın. Kimse yoksa üç seviyede botlara karşı hemen oyna.
+
+Rikogol, arkadaşlarla online oynanan bir arcade futbol oyunu. İki tuş yeterli — hareket ve şut; gerisini fizik motoru hallediyor: her pas, duvardan seken her top, direği yalayıp ağlara giden her şut. Oyunda oyuncu istatistiği, zar, faul ve ofsayt yok.
+
+Maçlar küçük sahadaki bire bir düellolardan dolu stadyumlardaki 11v11 derbilere kadar uzanıyor; tek maçta 24 kişiye kadar yer var. Oyunun kendine has dokunuşu teknik direktör: her takımdan bir oyuncu sahadan çıkıp maç içinde dizilişi değiştirebiliyor, takımını yalnızca kendi tarafının gördüğü ping ve oklarla yönlendirebiliyor.
+
+Arkadaşlar doğrudan Steam arkadaş listesinden katılıyor; maçlar Steam Relay üzerinden, port açmaya ve ekstra hesaba gerek kalmadan oynanıyor. Lobi dolmadığında Antrenman › Botlara Karşı modunda Kolay, Orta ya da Zor botlarla, çevrimdışıyken bile gerçek bir maç oynanabiliyor.
+
+ÖNE ÇIKAN ÖZELLİKLER
+------------------------------------------------------------
+- İki tuşla gerçek fizikli arcade futbol: hareket ve şut
+- 1v1 düellodan 11v11 derbiye, tek maçta 24 kişiye kadar
+- Teknik direktör rolü: diziliş, yalnızca kendi takımının gördüğü ping ve oklar
+- Üç seviyede botlar: Antrenman'da çevrimdışı, online odalarda boş koltukları doldurmak için
+- Steam daveti, maç tarayıcısı, lobi ve maç içi sohbet; altyapıda Steam Relay
+- Beş atmosfer, dört stadyum ve kadrolar büyüdükçe dolan tribünler
+- Renk körlüğüne uygun takım paletleri, yüksek kontrast modu, yeniden atanabilir kontroller
+- 65 Steam Başarımı, Steam Bulut, 7 dil
+
+GELİŞTİRİCİ HAKKINDA
+------------------------------------------------------------
+Rikogol, Türkiye'den bağımsız yapımcı Deniz Durusoy tarafından geliştirilip yayımlanıyor. Oyun 14 Eylül 2026'da Steam'de Erken Erişime çıktı ve o günden beri düzenli olarak güncelleniyor.
+
+Basın kiti: https://rikogol.com/tr/press/
+Steam'de Deniz Durusoy: https://store.steampowered.com/developer/denizdurusoy

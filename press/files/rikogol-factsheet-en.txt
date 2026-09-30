@@ -1,0 +1,45 @@
+RIKOGOL FACT SHEET
+============================================================
+
+Game:            Rikogol
+Developer:       Deniz Durusoy
+Publisher:       Deniz Durusoy
+Based in:        Turkey
+Release date:    September 14, 2026 (Early Access)
+Status:          Early Access
+Current version: v1.4, the Matchday Update
+Platforms:       Windows, macOS (Steam)
+Players:         1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline
+Languages:       English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French
+Achievements:    65 Steam Achievements
+Steam:           https://store.steampowered.com/app/4492690/Rikogol/
+Website:         https://rikogol.com
+Press contact:   steam@rikogol.com
+
+DESCRIPTION
+------------------------------------------------------------
+Arcade football with real physics, online with your friends. From 1v1 duels to 11v11 derbies with a Head Coach on each side. Two controls, zero stats, no fouls, no offside — just skill. Invite through Steam and you are on the pitch in seconds. Friends offline? Take on bots at three levels.
+
+Rikogol is arcade football you play online with your friends. Two controls — move and kick — and a physics core that does the rest: every pass, every bounce off the wall, every shot that kisses the post and goes in. There are no player stats, no dice rolls, no fouls and no offside.
+
+Matches run from one-on-one duels on a tiny pitch to 11v11 derbies in a packed stadium, with up to 24 people in one match. Rikogol’s own twist is the Head Coach: one player per team can leave the pitch, switch the formation mid-match and guide the team with pings and arrows that only their own side can see.
+
+Friends join straight from the Steam friends list, and matches run over Steam’s relay network with no port forwarding and no extra account. With no full lobby, Training › Versus Bots offers a real match against Easy, Medium or Hard bots, even offline.
+
+KEY FEATURES
+------------------------------------------------------------
+- Arcade physics football with two controls: move and kick
+- 1v1 duels to 11v11 derbies, up to 24 people in one match
+- Head Coach role: formations, pings and arrows only your own team can see
+- Bots at three levels, offline in Training and as seat-fillers in online rooms
+- Steam invites, match browser, lobby and in-match chat over Steam Relay
+- Five atmospheres, four stadiums and stands that fill up with more players
+- Colour-blind team palettes, high-contrast mode, rebindable controls
+- 65 Steam Achievements, Steam Cloud, 7 languages
+
+ABOUT THE DEVELOPER
+------------------------------------------------------------
+Rikogol is developed and published by Deniz Durusoy, an independent developer based in Turkey. The game launched in Early Access on Steam on September 14, 2026, and has been updated regularly since.
+
+Press kit: https://rikogol.com/press/
+Deniz Durusoy on Steam: https://store.steampowered.com/developer/denizdurusoy
