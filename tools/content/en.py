@@ -296,7 +296,7 @@ P = {
     "trailer_steam": "Watch on the Steam page",
     "dev_title": "About the developer",
     "dev_text": [
-        "Rikogol is developed and published by Deniz Durusoy, an independent developer based in Turkey. "
+        "Rikogol is a one-person project: it is developed and published by Deniz Durusoy, an independent developer based in Turkey. "
         "The game launched in Early Access on Steam on September 14, 2026, and has been updated regularly since.",
     ],
     "dev_link": "Developer page on Steam",

@@ -39,7 +39,7 @@ CARACTERÍSTICAS PRINCIPALES
 
 QUIÉN HACE RIKOGOL
 ------------------------------------------------------------
-Deniz Durusoy desarrolla y publica Rikogol de forma independiente desde Turquía. El juego salió en Acceso anticipado en Steam el 14 de septiembre de 2026 y desde entonces se actualiza con regularidad.
+Rikogol es un proyecto de una sola persona: Deniz Durusoy lo desarrolla y lo publica de forma independiente desde Turquía. El juego salió en Acceso anticipado en Steam el 14 de septiembre de 2026 y desde entonces se actualiza con regularidad.
 
 Kit de prensa: https://rikogol.com/es/press/
 Deniz Durusoy en Steam: https://store.steampowered.com/developer/denizdurusoy

@@ -290,7 +290,7 @@ P = {
     "trailer_steam": "Steam sayfasında izleyin",
     "dev_title": "Geliştirici hakkında",
     "dev_text": [
-        "Rikogol, Türkiye'den bağımsız yapımcı Deniz Durusoy tarafından geliştirilip yayımlanıyor. Oyun 14 Eylül "
+        "Rikogol tek kişilik bir yapım: Türkiye'den bağımsız yapımcı Deniz Durusoy tarafından geliştirilip yayımlanıyor. Oyun 14 Eylül "
         "2026'da Steam'de Erken Erişime çıktı ve o günden beri düzenli olarak güncelleniyor.",
     ],
     "dev_link": "Steam'deki geliştirici sayfası",

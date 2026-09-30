@@ -39,7 +39,7 @@ Arkadaşlar doğrudan Steam arkadaş listesinden katılıyor; maçlar Steam Rela
 
 GELİŞTİRİCİ HAKKINDA
 ------------------------------------------------------------
-Rikogol, Türkiye'den bağımsız yapımcı Deniz Durusoy tarafından geliştirilip yayımlanıyor. Oyun 14 Eylül 2026'da Steam'de Erken Erişime çıktı ve o günden beri düzenli olarak güncelleniyor.
+Rikogol tek kişilik bir yapım: Türkiye'den bağımsız yapımcı Deniz Durusoy tarafından geliştirilip yayımlanıyor. Oyun 14 Eylül 2026'da Steam'de Erken Erişime çıktı ve o günden beri düzenli olarak güncelleniyor.
 
 Basın kiti: https://rikogol.com/tr/press/
 Steam'de Deniz Durusoy: https://store.steampowered.com/developer/denizdurusoy
