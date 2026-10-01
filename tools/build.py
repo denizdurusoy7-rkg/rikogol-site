@@ -24,6 +24,8 @@ DEV = "https://store.steampowered.com/developer/denizdurusoy"
 ANN = "https://steamcommunity.com/games/4492690/announcements/detail/687518426922483728"
 WIDGET = "https://store.steampowered.com/widget/4492690/"
 EMAIL = "steam@rikogol.com"
+YOUTUBE = "https://www.youtube.com/@rikogolgame"
+INSTAGRAM = "https://www.instagram.com/rikogolgame/"
 LASTMOD = "2026-09-30"
 MP4 = "/assets/video/rikogol-trailer.mp4"
 POSTER = "/assets/video/rikogol-trailer-poster.webp"
@@ -235,6 +237,8 @@ def site_footer(c, press_href, lang_items, affiliation_note=False):
 <li><a href="{press_href}">{esc(u["press"])}</a></li>
 <li><a href="{STORE}">{esc(u["store_link"])}</a></li>
 <li><a href="{DEV}">{esc(u["dev_link"])}</a></li>
+<li><a href="{YOUTUBE}" rel="me" lang="en">YouTube</a></li>
+<li><a href="{INSTAGRAM}" rel="me" lang="en">Instagram</a></li>
 </ul>
 </nav>
 <nav class="footer-langs" aria-label="{esc(u["lang_label"])}">
@@ -291,7 +295,7 @@ def ld_game(c):
         "@type": "VideoGame",
         "name": "Rikogol",
         "url": SITE + c["path"],
-        "sameAs": [STORE],
+        "sameAs": [STORE, YOUTUBE, INSTAGRAM],
         "description": MODS[c["code"]].C["description"],
         "image": SITE + OG_IMAGE,
         "gamePlatform": ["PC", "Mac"],
