@@ -49,9 +49,10 @@ C = {
     "band": {
         "kicker": "Auf Steam erhältlich",
         "title": "Jetzt im Early Access",
-        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Das neue Online-Update (v1.7) bringt "
-                "flüssigere Matches, sicherere Räume, echte Vorbereitungszeit für Cheftrainer, eine vom Host "
-                "gewählte Atmosphäre und einen geschätzten Ping für jedes offene Spiel.",
+        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Mit dem neuen Schnellspiel-Update (v1.8) ist "
+                "Online-Fußball jetzt nur einen Tastendruck entfernt: „Schnelles Spiel“ bringt dich in eine offene "
+                "Lobby (läuft dort gerade ein Spiel, direkt aufs Feld) oder startet, falls es keine findet, dein "
+                "eigenes 3v3 gegen Bots und hält es für alle offen, die mitspielen wollen.",
         "link": "Alle Details zum Update",
     },
     "pitch": {

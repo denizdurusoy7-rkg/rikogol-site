@@ -7,7 +7,7 @@ Edición:            Deniz Durusoy
 País:               Turquía
 Lanzamiento:        14 de septiembre de 2026 (Acceso anticipado)
 Estado:             Acceso anticipado
-Versión actual:     v1.7.0, Actualización del modo en línea
+Versión actual:     v1.8.0, Actualización de Partida Rápida
 Plataformas:        Windows, macOS (Steam)
 Jugadores:          Del 1v1 al 11v11 en línea, con hasta 24 personas por partido; el modo Contra Bots funciona sin conexión, también para dos jugadores en una misma PC (co-op de sillón); soporte completo para control
 Idiomas:            Inglés, turco, alemán, ruso, portugués (Brasil), español (Latinoamérica), francés, chino simplificado

@@ -48,9 +48,10 @@ C = {
     "band": {
         "kicker": "Yayında",
         "title": "Şimdi Erken Erişimde",
-        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.7 Çevrimiçi Güncellemesi ile daha "
-                "akıcı maçlar, daha güvenli odalar, teknik direktörlere hazırlık süresi, host'un seçtiği atmosfer "
-                "ve her açık maç için tahmini ping geldi.",
+        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.8 Hızlı Maç Güncellemesi ile çevrimiçi "
+                "futbol artık tek tuş uzağında: Hızlı Maç seni açık bir odaya götürür (maç sürüyorsa doğrudan sahaya "
+                "çıkarsın) ya da oda bulamazsa botlara karşı kendi 3v3 maçını başlatır ve onu katılmak isteyen "
+                "herkese açık tutar.",
         "link": "Güncelleme notlarını oku",
     },
     "pitch": {
@@ -187,7 +188,7 @@ C = {
 P = {
     "path": "/tr/press/",
     "title": "Rikogol basın kiti — künye, haberler, logolar ve görseller",
-    "description": "Rikogol basın kiti: künye, v1.7 Çevrimiçi Güncellemesi haberi, logolar, ana görseller, ekran "
+    "description": "Rikogol basın kiti: künye, v1.8 Hızlı Maç Güncellemesi haberi, logolar, ana görseller, ekran "
                    "görüntüleri ve fragman. Gerçek fizikli arcade futbol, Steam'de Erken Erişimde.",
     "nav": ["Oyun", "Künye", "Haberler", "İndir", "İletişim"],
     "h1": "Basın kiti",
@@ -203,7 +204,7 @@ P = {
         ("Konum", "Türkiye"),
         ("Çıkış tarihi", "14 Eylül 2026 (Erken Erişim)"),
         ("Durum", "Erken Erişim"),
-        ("Güncel sürüm", "v1.7.0, Çevrimiçi Güncellemesi"),
+        ("Güncel sürüm", "v1.8.0, Hızlı Maç Güncellemesi"),
         ("Platformlar", "Windows, macOS (Steam)"),
         ("Oyuncular", "Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır, "
                       "tek PC'de iki oyuncuyla da; tam kontrolcü desteği"),
@@ -244,6 +245,28 @@ P = {
     "news_read": "Güncelleme notlarının tamamını Steam'de okuyun",
     # en yenisi en üstte; her anahtarın tarihi, Steam bağlantısı ve öğe kimliği NEWS'te (tools/build.py)
     "news": [
+        {
+            "key": "v180",
+            "date": "8 Ekim 2026",
+            "headline": "Rikogol Hızlı Maç Güncellemesi: tek tuşla sahadasın",
+            "standfirst": "1.8.0 sürümüyle çevrimiçi futbol artık tek tuş uzağında: Hızlı Maç oyuncuyu açık bir odaya "
+                          "götürüyor (maç sürüyorsa doğrudan sahaya) ya da oda bulamazsa botlara karşı oyuncunun "
+                          "kendi 3v3 maçını başlatıp onu katılmak isteyen herkese açık tutuyor.",
+            "paras": [
+                "Hızlı Maç artık ana menünün ilk düğmesi; Çevrimiçi ekranının en üstünde de yer alıyor. Oyuncunun "
+                "yalnızca izleyebileceği değil, oynayabileceği açık bir oda (Herkese Açık, şifresiz, aynı oyun "
+                "sürümü) arıyor; ikinci bir arama da bir şey bulamazsa oyuncunun kendi Herkese Açık 3v3 odasını "
+                "kuruyor ve boş yerlere botlar koyarak maçı hemen başlatıyor. Bulunan odada maç sürüyorsa oyuncu "
+                "doğrudan sahaya çıkıyor: yerleştirildiği takım doluysa ve içinde bot varsa o takımın botlarından "
+                "birinin yerini alıyor; takımda hâlâ boş yer varsa ona yeni bir disk veriliyor. Hızlı Maç'ın "
+                "kurduğu oda ilk maçına tüm boş yerlerde botlarla başladığı için o ilk maç sırasında Hızlı Maç ile "
+                "gelen herkes bir botun yerini alıyor.",
+                "Steam açıkken ana menüde, Çıkış'ın altında yeni bir “Geliştiriciyi takip et” bağlantısı da "
+                "bulunuyor. Bağlantı geliştiricinin Steam sayfasını açıyor; bu sayfayı takip edenlere Steam, "
+                "geliştiricinin oyunlarından biri çıktığında, Erken Erişim'e girdiğinde ya da Erken Erişim'den "
+                "çıktığında e-posta gönderiyor.",
+            ],
+        },
         {
             "key": "v170",
             "date": "8 Ekim 2026",

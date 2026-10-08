@@ -49,9 +49,10 @@ C = {
     "band": {
         "kicker": "Out now",
         "title": "Available now in Early Access",
-        "text": "Rikogol launched on Steam on September 14, 2026. The latest update, the v1.7 Online Update, brings "
-                "smoother online matches, safer rooms, prep time for Head Coaches, an atmosphere picked by the host "
-                "and an estimated ping for every open match.",
+        "text": "Rikogol launched on Steam on September 14, 2026. With the latest update, the v1.8 Quick Match Update, "
+                "online football is one press away: Quick Match puts you into an open room (straight onto the pitch "
+                "if a match is running) or, if it finds none, starts your own 3v3 against bots and keeps it open for "
+                "anyone who wants to join.",
         "link": "Read the update notes",
     },
     "pitch": {
@@ -193,8 +194,8 @@ C = {
 P = {
     "path": "/press/",
     "title": "Rikogol press kit — facts, news, logos and screenshots",
-    "description": "Rikogol press kit: fact sheet, v1.7 Online Update news, logos, key art, screenshots and trailer "
-                   "for the arcade physics football game in Early Access on Steam.",
+    "description": "Rikogol press kit: fact sheet, v1.8 Quick Match Update news, logos, key art, screenshots and "
+                   "trailer for the arcade physics football game in Early Access on Steam.",
     "nav": ["Game", "Facts", "News", "Downloads", "Contact"],
     "h1": "Press kit",
     "intro": "Everything you need to write about Rikogol: facts, description, the latest news, logos, key art, "
@@ -208,7 +209,7 @@ P = {
         ("Based in", "Turkey"),
         ("Release date", "September 14, 2026 (Early Access)"),
         ("Status", "Early Access"),
-        ("Current version", "v1.7.0, the Online Update"),
+        ("Current version", "v1.8.0, the Quick Match Update"),
         ("Platforms", "Windows, macOS (Steam)"),
         ("Players", "1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline, also with two "
                     "players on one PC (couch co-op); full controller support"),
@@ -249,6 +250,27 @@ P = {
     "news_read": "Read the full update notes on Steam",
     # newest first; the ISO date, Steam link and element id of each key are in NEWS (tools/build.py)
     "news": [
+        {
+            "key": "v180",
+            "date": "October 8, 2026",
+            "headline": "Rikogol’s Quick Match Update: one press and you’re playing",
+            "standfirst": "With version 1.8.0, online football is one press away: Quick Match puts players into an "
+                          "open room (straight onto the pitch if a match is running) or, if it finds none, starts "
+                          "their own 3v3 against bots and keeps it open for anyone who wants to join.",
+            "paras": [
+                "Quick Match is now the first button in the main menu and also sits at the top of the Online "
+                "screen. It looks for an open room (Public, no password, same game version) where the player can "
+                "play, not just watch; if a second search also finds nothing, it creates the player’s own Public "
+                "3v3 room and the match starts straight away, with bots in every empty seat. If a match is running "
+                "in the room it finds, the player goes straight onto the pitch: if the team they are put on is full "
+                "and has a bot, they take over one of its bots; if that team still has an empty seat, they get a "
+                "new disc of their own. A room created by Quick Match starts its first match with bots in every "
+                "empty seat, so anyone Quick Match brings in during that first match takes a bot’s place.",
+                "When Steam is running, the main menu also has a new “Follow the developer” link under Quit. It "
+                "opens the developer’s Steam page, and players who follow that page get an email from Steam when "
+                "one of the developer’s games is released, enters Early Access or leaves Early Access.",
+            ],
+        },
         {
             "key": "v170",
             "date": "October 8, 2026",

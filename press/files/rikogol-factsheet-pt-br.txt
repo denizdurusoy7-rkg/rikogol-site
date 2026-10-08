@@ -7,7 +7,7 @@ Publicação:            Deniz Durusoy
 País:                  Turquia
 Lançamento:            14 de setembro de 2026 (Acesso Antecipado)
 Status:                Acesso Antecipado
-Versão atual:          v1.7.0, Atualização do online
+Versão atual:          v1.8.0, Atualização da Partida Rápida
 Plataformas:           Windows, macOS (Steam)
 Jogadores:             Online de 1v1 a 11v11, até 24 pessoas por partida; Contra Bots funciona offline, também com dois jogadores no mesmo PC (co-op de sofá); suporte total a controle
 Idiomas:               Inglês, turco, alemão, russo, português (Brasil), espanhol (América Latina), francês, chinês simplificado

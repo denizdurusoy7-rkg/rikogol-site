@@ -7,7 +7,7 @@ Yayıncı:         Deniz Durusoy
 Konum:           Türkiye
 Çıkış tarihi:    14 Eylül 2026 (Erken Erişim)
 Durum:           Erken Erişim
-Güncel sürüm:    v1.7.0, Çevrimiçi Güncellemesi
+Güncel sürüm:    v1.8.0, Hızlı Maç Güncellemesi
 Platformlar:     Windows, macOS (Steam)
 Oyuncular:       Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır, tek PC'de iki oyuncuyla da; tam kontrolcü desteği
 Diller:          İngilizce, Türkçe, Almanca, Rusça, Brezilya Portekizcesi, Latin Amerika İspanyolcası, Fransızca, Basitleştirilmiş Çince

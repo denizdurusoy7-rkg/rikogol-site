@@ -66,9 +66,10 @@ C = _typo({
     "band": {
         "kicker": "Disponible",
         "title": "Jouable dès maintenant en accès anticipé",
-        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. La dernière mise à jour, Multijoueur (v1.7), "
-                "apporte des matchs en ligne plus fluides, des salons plus sûrs, un vrai temps de préparation pour "
-                "chaque entraîneur, une atmosphère choisie par l’hôte et un ping estimé pour chaque partie ouverte.",
+        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. Depuis la dernière mise à jour (v1.8), jouer au "
+                "foot en ligne ne demande plus qu’une pression : Partie Rapide te fait entrer dans un salon ouvert "
+                "(si une partie y est en cours, directement sur le terrain) ou, si elle n’en trouve aucun, lance ton "
+                "propre 3v3 contre des bots et le laisse ouvert à tous ceux qui veulent le rejoindre.",
         "link": "Lire les notes de mise à jour",
     },
     "pitch": {

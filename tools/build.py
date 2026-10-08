@@ -26,8 +26,8 @@ WIDGET = "https://store.steampowered.com/widget/4492690/"
 EMAIL = "steam@rikogol.com"
 YOUTUBE = "https://www.youtube.com/@rikogolgame"
 INSTAGRAM = "https://www.instagram.com/rikogolgame/"
-HOME_LASTMOD = "2026-10-08"   # sitemap lastmod of the language pages
-PRESS_LASTMOD = "2026-10-08"  # sitemap lastmod of the press pages
+HOME_LASTMOD = "2026-10-09"   # sitemap lastmod of the language pages
+PRESS_LASTMOD = "2026-10-09"  # sitemap lastmod of the press pages
 MP4 = "/assets/video/rikogol-trailer.mp4"
 POSTER = "/assets/video/rikogol-trailer-poster.webp"
 OG_IMAGE = "/press/files/rikogol-main-capsule.jpg"
@@ -43,14 +43,14 @@ LANG_NAMES = [("en", "English"), ("tr", "Türkçe"), ("de", "Deutsch"), ("ru", "
 # Press-page news, newest first: key -> (ISO date, Steam announcement, id of the h3 that labels the article).
 # Each content module's P["news"] holds the copy of every entry, under the same keys and in this order.
 NEWS = {
-    # go-live day: fill 08 / 8 here and in tools/content/*.py; the link can become the announcement
-    "v170": ("2026-10-08", "https://store.steampowered.com/news/app/4492690", "release-v170-title"),
+    "v180": ("2026-10-08", ANN + "687519061335082796", "release-v180-title"),
+    "v170": ("2026-10-08", ANN + "687519061335081670", "release-v170-title"),
     "v161": ("2026-10-05", ANN + "687518426922485684", "release-v161-title"),
     "v160": ("2026-10-04", ANN + "687518426922485607", "release-v160-title"),
     "v150": ("2026-10-02", ANN + "687518426922484737", "release-v150-title"),
     "v14": ("2026-09-30", ANN + "687518426922483728", "release-title"),
 }
-LATEST = "v170"  # the update the home pages' "latest update" band names and links to
+LATEST = "v180"  # the update the home pages' "latest update" band names and links to
 
 CSP = ("default-src 'self'; img-src 'self' data:; media-src 'self'; font-src 'self'; style-src 'self'; "
        "script-src 'self'; frame-src https://store.steampowered.com; connect-src 'self'; object-src 'none'; "

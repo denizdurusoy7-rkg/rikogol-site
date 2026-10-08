@@ -49,10 +49,10 @@ C = {
     "band": {
         "kicker": "Já disponível",
         "title": "Em Acesso Antecipado na Steam",
-        "text": "Rikogol chegou à Steam em 14 de setembro de 2026. A atualização mais recente (v1.7), focada no "
-                "jogo online, traz partidas mais fluidas, salas mais seguras, um tempo de verdade para os técnicos "
-                "montarem o time, uma atmosfera escolhida pelo anfitrião e um ping estimado para cada partida "
-                "aberta.",
+        "text": "Rikogol chegou à Steam em 14 de setembro de 2026. Com a atualização mais recente (v1.8), o futebol "
+                "online agora está a um toque de distância: a Partida Rápida leva você a uma sala aberta (se houver "
+                "uma partida em andamento, direto para o campo) ou, se não encontrar nenhuma, começa o seu próprio "
+                "3v3 contra bots e o deixa aberto para quem quiser entrar.",
         "link": "Ler as notas da atualização",
     },
     "pitch": {
@@ -194,8 +194,8 @@ C = {
 P = {
     "path": "/pt-br/press/",
     "title": "Kit de imprensa do Rikogol — ficha técnica, notícias e imagens",
-    "description": "Kit de imprensa do Rikogol: ficha técnica, notícia da Atualização do online (v1.7), logos, "
-                   "artes, capturas de tela e trailer.",
+    "description": "Kit de imprensa do Rikogol: ficha técnica, notícia da Atualização da Partida Rápida (v1.8), "
+                   "logos, artes, capturas de tela e trailer.",
     "nav": ["Jogo", "Ficha", "Notícias", "Downloads", "Contato"],
     "h1": "Kit de imprensa",
     "intro": "Tudo o que você precisa para escrever sobre o Rikogol: ficha técnica, descrição, a notícia mais recente, "
@@ -210,7 +210,7 @@ P = {
         ("País", "Turquia"),
         ("Lançamento", "14 de setembro de 2026 (Acesso Antecipado)"),
         ("Status", "Acesso Antecipado"),
-        ("Versão atual", "v1.7.0, Atualização do online"),
+        ("Versão atual", "v1.8.0, Atualização da Partida Rápida"),
         ("Plataformas", "Windows, macOS (Steam)"),
         ("Jogadores", "Online de 1v1 a 11v11, até 24 pessoas por partida; Contra Bots funciona offline, também com "
                       "dois jogadores no mesmo PC (co-op de sofá); suporte total a controle"),
@@ -251,6 +251,30 @@ P = {
     "news_read": "Leia as notas completas da atualização na Steam",
     # a mais recente primeiro; a data ISO, o link da Steam e o id de cada chave estão em NEWS (tools/build.py)
     "news": [
+        {
+            "key": "v180",
+            "date": "8 de outubro de 2026",
+            "headline": "Atualização da Partida Rápida do Rikogol: um toque e você já está jogando",
+            "standfirst": "Com a versão 1.8.0, o futebol online fica a um toque de distância: a Partida Rápida leva o "
+                          "jogador a uma sala aberta (se houver uma partida em andamento, direto para o campo) ou, se "
+                          "não encontrar nenhuma, começa o próprio 3v3 do jogador contra bots e o deixa aberto para "
+                          "quem quiser entrar.",
+            "paras": [
+                "A Partida Rápida agora é o primeiro botão do menu principal e também fica no topo da tela Online. "
+                "Ela procura uma sala aberta (Pública, sem senha, na mesma versão do jogo) onde o jogador possa "
+                "jogar, e não só assistir; se uma segunda busca também não encontrar nada, ela cria uma sala "
+                "própria para o jogador, Pública e de 3v3, e a partida começa na hora, com bots em todas as vagas "
+                "livres. Se a sala encontrada estiver no meio de uma partida, o jogador vai direto para o campo: se "
+                "o time em que for colocado estiver completo e tiver um bot, ele assume o lugar de um dos bots "
+                "desse time; se esse time ainda tiver uma vaga livre, ele ganha um disco novo só seu. Uma sala "
+                "criada pela Partida Rápida começa a primeira partida com bots em todas as vagas livres, então quem "
+                "chega pela Partida Rápida durante essa primeira partida assume o lugar de um bot.",
+                "Com a Steam aberta, o menu principal também tem um novo link “Seguir o desenvolvedor”, embaixo de "
+                "Sair. Ele abre a página do desenvolvedor na Steam, e quem segue essa página recebe um e-mail da "
+                "Steam quando um dos jogos do desenvolvedor é lançado, entra em Acesso Antecipado ou sai do Acesso "
+                "Antecipado.",
+            ],
+        },
         {
             "key": "v170",
             "date": "8 de outubro de 2026",
