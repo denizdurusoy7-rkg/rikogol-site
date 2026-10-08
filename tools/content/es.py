@@ -1,5 +1,6 @@
 # Texto en español de Latinoamérica. Características con la redacción de la página en vivo en Steam
-# (appdetails, l=latam); datos de la v1.4 tomados del anuncio publicado de la actualización Día de Partido.
+# (appdetails, l=latam); datos de las actualizaciones (línea de la más reciente, noticias, versión actual)
+# tomados de los anuncios publicados en Steam.
 C = {
     "code": "es",
     "lang": "es-419",
@@ -45,14 +46,14 @@ C = {
         "tagline": "Fútbol arcade con física real, en línea con tus amigos.",
         "sub": "Del 1v1 al clásico 11v11, con un director técnico por lado. "
                "Dos controles, cero estadísticas, sin faltas ni fuera de lugar: solo habilidad.",
-        "facts": ["Acceso anticipado", "Windows y macOS", "Hasta 24 jugadores", "7 idiomas"],
+        "facts": ["Acceso anticipado", "Windows y macOS", "Hasta 24 jugadores", "8 idiomas"],
     },
     "band": {
         "kicker": "Ya disponible",
         "title": "Ahora en Acceso anticipado",
-        "text": "Rikogol llegó a Steam el 14 de septiembre de 2026. La actualización más reciente, Día de Partido "
-                "(v1.4), trae festejos de gol, un medio tiempo de verdad con cambio de lado y bots más listos en "
-                "partidos llenos.",
+        "text": "Rikogol llegó a Steam el 14 de septiembre de 2026. La actualización más reciente, Co-op de sillón "
+                "(v1.6), trae Contra Bots para dos en la misma PC y todo el juego con control, y luego su hotfix "
+                "v1.6.1 sumó tres pequeñas correcciones.",
         "link": "Leer las notas de la actualización",
     },
     "pitch": {
@@ -151,7 +152,7 @@ C = {
             "text": "Entrenamiento cuando quieras: afina tus tiros solo o enfréntate a bots. Steam Cloud mantiene tu "
                     "configuración en cualquier computadora.",
         },
-        {"icon": "globe", "title": "7 idiomas", "langs": True},
+        {"icon": "globe", "title": "8 idiomas", "langs": True},
     ],
     "gallery": {
         "kicker": "Capturas",
@@ -197,8 +198,8 @@ C = {
 P = {
     "path": "/es/press/",
     "title": "Kit de prensa de Rikogol — ficha técnica, noticias e imágenes",
-    "description": "Kit de prensa de Rikogol: ficha técnica, noticia de la actualización Día de Partido (v1.4), logos, "
-                   "arte principal, capturas y tráiler.",
+    "description": "Kit de prensa de Rikogol: ficha técnica, noticia de la Actualización co-op de sillón (v1.6), "
+                   "logos, arte principal, capturas y tráiler.",
     "nav": ["Juego", "Ficha", "Noticias", "Descargas", "Contacto"],
     "h1": "Kit de prensa",
     "intro": "Todo lo que necesitas para escribir sobre Rikogol: ficha técnica, descripción, la noticia más reciente, "
@@ -213,11 +214,13 @@ P = {
         ("País", "Turquía"),
         ("Lanzamiento", "14 de septiembre de 2026 (Acceso anticipado)"),
         ("Estado", "Acceso anticipado"),
-        ("Versión actual", "v1.4, actualización Día de Partido"),
+        ("Versión actual", "v1.6.1, Actualización co-op de sillón y su hotfix"),
         ("Plataformas", "Windows, macOS (Steam)"),
-        ("Jugadores", "Del 1v1 al 11v11 en línea, con hasta 24 personas por partido; el modo Contra Bots funciona sin "
-                      "conexión"),
-        ("Idiomas", "Inglés, turco, alemán, ruso, portugués (Brasil), español (Latinoamérica), francés"),
+        ("Jugadores", "Del 1v1 al 11v11 en línea, con hasta 24 personas por partido; el modo Contra Bots funciona "
+                      "sin conexión, también para dos jugadores en una misma PC (co-op de sillón); soporte "
+                      "completo para control"),
+        ("Idiomas", "Inglés, turco, alemán, ruso, portugués (Brasil), español (Latinoamérica), francés, chino "
+                    "simplificado"),
         ("Logros", "65 Logros de Steam"),
         ("Steam", "{store}"),
         ("Sitio web", "https://rikogol.com"),
@@ -248,45 +251,89 @@ P = {
         "Invitaciones de Steam, buscador de partidas y chat de sala y de partido, con conexión por Steam Relay",
         "Cinco atmósferas, cuatro estadios y una afición que crece con la cantidad de jugadores",
         "Paletas para daltónicos, modo de alto contraste y controles reasignables",
-        "65 Logros de Steam, Steam Cloud y 7 idiomas",
+        "65 Logros de Steam, Steam Cloud y 8 idiomas",
     ],
-    "news_title": "Última noticia",
-    "release": {
-        "date": "30 de septiembre de 2026",
-        "headline": "La actualización Día de Partido llega a Rikogol con festejos de gol, un medio tiempo de verdad y "
-                    "bots más listos",
-        "standfirst": "La versión 1.4 del juego de fútbol en línea con física real ya está disponible en Acceso "
-                      "anticipado en Steam para Windows y macOS.",
-        "dateline": "TURQUÍA, 30 de septiembre de 2026",
-        "paras": [
-            "Ya está disponible la actualización Día de Partido, versión 1.4 de Rikogol, el juego de fútbol arcade con "
-            "física real para jugar en línea con amigos, desarrollado de forma independiente por Deniz Durusoy. La "
-            "actualización lleva el ritmo de un verdadero día de partido a cada encuentro, en línea y en Entrenamiento.",
-            "Ahora cada gol tiene su momento. Después de un gol, el partido se detiene 2,5 segundos para el festejo: el "
-            "reloj no avanza, ningún gol cuenta en ese lapso y los jugadores pueden correr hacia la tribuna y celebrar "
-            "con su equipo mientras el cartel de ¡GOL! sigue en pantalla. Luego saca el equipo que recibió el gol. "
-            "Incluso el gol que define el partido tiene su festejo completo antes del silbatazo final.",
-            "En los partidos con límite de tiempo, el reloj se detiene a la mitad y empieza un medio tiempo de 5 "
-            "segundos. Suena el silbato, aparece el cartel «Medio tiempo / Cambio de lado» y después los equipos "
-            "cambian de lado; el equipo que no sacó al inicio empieza el segundo tiempo. Cuando hay director técnico, "
-            "la formación se va con el equipo a su nuevo lado.",
-            "Los bots también se volvieron más listos en partidos llenos, hasta 11v11. Ya no se empujan entre sí: les "
-            "ceden el paso a sus compañeros, marcan a los rivales a distancia en lugar de apoyarse en ellos y se "
-            "mantienen fuera del espacio de su propio arquero. Durante el festejo y el medio tiempo dejan de jugar y "
-            "caminan de vuelta a sus lugares.",
-            "La versión 1.4 además corrige dos casos raros en los que el balón podía quedar atascado junto a la línea "
-            "lateral, y ajusta el espaciado de letras y las indicaciones de teclas de los menús en los siete idiomas. "
-            "Todos los jugadores de un partido deben tener la misma versión; Steam actualiza el juego automáticamente.",
-        ],
-        "about_title": "Acerca de Rikogol",
-        "about": "Rikogol es fútbol arcade con física real para jugar en línea con amigos. Los partidos van del duelo "
-                 "1v1 al clásico 11v11, con hasta 24 personas, incluido un director técnico de cada lado que dirige al "
-                 "equipo desde la banda. Los amigos se unen con invitaciones de Steam, los partidos funcionan a través "
-                 "de Steam Relay sin abrir puertos y, si no hay nadie más, se puede jugar con bots de tres niveles. "
-                 "Rikogol salió en Acceso anticipado en Steam el 14 de septiembre de 2026 para Windows y macOS, en "
-                 "siete idiomas y con 65 Logros de Steam.",
-        "read": "Leer las notas completas de la actualización en Steam",
-    },
+    "news_title": "Últimas noticias",
+    "news_read": "Leer las notas completas de la actualización en Steam",
+    # la más reciente primero; la fecha ISO, el enlace de Steam y el id de cada clave están en NEWS (tools/build.py)
+    "news": [
+        {
+            "key": "v161",
+            "date": "5 de octubre de 2026",
+            "headline": "Rikogol v1.6.1 Hotfix: idioma de Steam, ajustes en Steam Cloud e invitaciones",
+            "standfirst": "Una pequeña actualización con tres correcciones para todos los que inician Rikogol desde "
+                          "Steam.",
+            "paras": [
+                "La primera vez que se inicia, Rikogol ahora se abre en el idioma que el jugador usa en Steam, si "
+                "es uno de los 8 idiomas del juego, y los ajustes ahora pasan de una computadora a otra a través de "
+                "Steam Cloud. Si se acepta una invitación de Steam cuando Rikogol no está abierto, el juego se "
+                "inicia y ahora lleva al jugador directo a la sala a la que lo invitaron.",
+            ],
+        },
+        {
+            "key": "v160",
+            "date": "4 de octubre de 2026",
+            "headline": "Actualización co-op de sillón de Rikogol: dos en una PC y todo con control",
+            "standfirst": "Con la versión 1.6.0, ahora dos personas pueden jugar Contra Bots en la misma PC, y todo "
+                          "el juego, desde el menú principal hasta el pitazo final, se puede jugar con control.",
+            "paras": [
+                "El segundo jugador se une con su propio botón de tiro, desde un control o en el mismo teclado, y "
+                "los dos juegan juntos contra los bots o uno contra el otro en una sola pantalla compartida; en los "
+                "partidos en línea sigue siendo un jugador por PC. Todos los menús y todos los partidos funcionan "
+                "ahora con controles de Xbox, PlayStation (DualShock 4 y DualSense) y Switch Pro, y con Steam "
+                "Remote Play Together un amigo puede unirse desde su propia PC y jugar como P2.",
+            ],
+        },
+        {
+            "key": "v150",
+            "date": "2 de octubre de 2026",
+            "headline": "Actualización fluida de Rikogol: partidos en línea fluidos + chino simplificado",
+            "standfirst": "Con la versión 1.5.0, los partidos en línea se ven tan fluidos para quienes se unen como "
+                          "ya se veían para el anfitrión, y Rikogol ya habla chino simplificado.",
+            "paras": [
+                "Los demás jugadores, el balón y la cámara ahora se deslizan con fluidez en la pantalla de cada "
+                "jugador, mientras la física, las reglas y todos los valores del juego siguen exactamente igual que "
+                "antes. El chino simplificado ya es el octavo idioma de la interfaz: todos los menús, la pantalla "
+                "del partido y todos los mensajes están traducidos.",
+            ],
+        },
+        {
+            "key": "v14",
+            "date": "30 de septiembre de 2026",
+            "headline": "La actualización Día de Partido llega a Rikogol con festejos de gol, un medio tiempo de verdad y "
+                        "bots más listos",
+            "standfirst": "La versión 1.4 del juego de fútbol en línea con física real ya está disponible en Acceso "
+                          "anticipado en Steam para Windows y macOS.",
+            "dateline": "TURQUÍA, 30 de septiembre de 2026",
+            "paras": [
+                "Ya está disponible la actualización Día de Partido, versión 1.4 de Rikogol, el juego de fútbol arcade con "
+                "física real para jugar en línea con amigos, desarrollado de forma independiente por Deniz Durusoy. La "
+                "actualización lleva el ritmo de un verdadero día de partido a cada encuentro, en línea y en Entrenamiento.",
+                "Ahora cada gol tiene su momento. Después de un gol, el partido se detiene 2,5 segundos para el festejo: el "
+                "reloj no avanza, ningún gol cuenta en ese lapso y los jugadores pueden correr hacia la tribuna y celebrar "
+                "con su equipo mientras el cartel de ¡GOL! sigue en pantalla. Luego saca el equipo que recibió el gol. "
+                "Incluso el gol que define el partido tiene su festejo completo antes del silbatazo final.",
+                "En los partidos con límite de tiempo, el reloj se detiene a la mitad y empieza un medio tiempo de 5 "
+                "segundos. Suena el silbato, aparece el cartel «Medio tiempo / Cambio de lado» y después los equipos "
+                "cambian de lado; el equipo que no sacó al inicio empieza el segundo tiempo. Cuando hay director técnico, "
+                "la formación se va con el equipo a su nuevo lado.",
+                "Los bots también se volvieron más listos en partidos llenos, hasta 11v11. Ya no se empujan entre sí: les "
+                "ceden el paso a sus compañeros, marcan a los rivales a distancia en lugar de apoyarse en ellos y se "
+                "mantienen fuera del espacio de su propio arquero. Durante el festejo y el medio tiempo dejan de jugar y "
+                "caminan de vuelta a sus lugares.",
+                "La versión 1.4 además corrige dos casos raros en los que el balón podía quedar atascado junto a la línea "
+                "lateral, y ajusta el espaciado de letras y las indicaciones de teclas de los menús en los siete idiomas. "
+                "Todos los jugadores de un partido deben tener la misma versión; Steam actualiza el juego automáticamente.",
+            ],
+            "about_title": "Acerca de Rikogol",
+            "about": "Rikogol es fútbol arcade con física real para jugar en línea con amigos. Los partidos van del duelo "
+                     "1v1 al clásico 11v11, con hasta 24 personas, incluido un director técnico de cada lado que dirige al "
+                     "equipo desde la banda. Los amigos se unen con invitaciones de Steam, los partidos funcionan a través "
+                     "de Steam Relay sin abrir puertos y, si no hay nadie más, se puede jugar con bots de tres niveles. "
+                     "Rikogol salió en Acceso anticipado en Steam el 14 de septiembre de 2026 para Windows y macOS, en "
+                     "siete idiomas y con 65 Logros de Steam.",
+        },
+    ],
     "assets_title": "Descargas",
     "assets_intro": "Los logos, el arte principal y las capturas se pueden usar libremente en cualquier cobertura de "
                     "Rikogol.",

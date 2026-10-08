@@ -1,5 +1,5 @@
 # Deutscher Text. Feature-Formulierungen aus dem Live-Steam-Shoptext (appdetails, l=german);
-# v1.4-Fakten aus der veröffentlichten Spieltag-Update-Ankündigung.
+# Update-Fakten (Zeile zum neuesten Update) aus den veröffentlichten Steam-Ankündigungen.
 C = {
     "code": "de",
     "lang": "de",
@@ -44,13 +44,14 @@ C = {
         "tagline": "Arcade-Fußball mit echter Physik, online mit Freunden.",
         "sub": "Von 1v1-Duellen bis zu 11v11-Derbys mit einem Cheftrainer pro Team. "
                "Zwei Tasten, null Statistiken, keine Fouls, kein Abseits – nur Können.",
-        "facts": ["Early Access", "Windows & macOS", "Bis zu 24 Spieler", "7 Sprachen"],
+        "facts": ["Early Access", "Windows & macOS", "Bis zu 24 Spieler", "8 Sprachen"],
     },
     "band": {
         "kicker": "Auf Steam erhältlich",
         "title": "Jetzt im Early Access",
-        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Das neue Spieltag-Update (v1.4) "
-                "bringt Torjubel, eine echte Halbzeitpause mit Seitenwechsel und klügere Bots im Gedränge.",
+        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Das neue Couch-Koop-Update (v1.6) "
+                "bringt Matches zu zweit an einem PC gegen Bots und volle Controller-Unterstützung; danach folgte "
+                "der Hotfix v1.6.1 mit drei kleinen Fixes.",
         "link": "Alle Details zum Update",
     },
     "pitch": {
@@ -147,7 +148,7 @@ C = {
             "text": "Training jederzeit: allein an deinen Schüssen feilen oder gegen Bots antreten. Steam Cloud hält "
                     "deine Einstellungen auf jeder Maschine synchron.",
         },
-        {"icon": "globe", "title": "7 Sprachen", "langs": True},
+        {"icon": "globe", "title": "8 Sprachen", "langs": True},
     ],
     "gallery": {
         "kicker": "Screenshots",

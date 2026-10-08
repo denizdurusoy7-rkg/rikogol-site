@@ -21,12 +21,13 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 SITE = "https://rikogol.com"
 STORE = "https://store.steampowered.com/app/4492690/Rikogol/"
 DEV = "https://store.steampowered.com/developer/denizdurusoy"
-ANN = "https://steamcommunity.com/games/4492690/announcements/detail/687518426922483728"
+ANN = "https://steamcommunity.com/games/4492690/announcements/detail/"
 WIDGET = "https://store.steampowered.com/widget/4492690/"
 EMAIL = "steam@rikogol.com"
 YOUTUBE = "https://www.youtube.com/@rikogolgame"
 INSTAGRAM = "https://www.instagram.com/rikogolgame/"
-LASTMOD = "2026-09-30"
+HOME_LASTMOD = "2026-10-08"   # sitemap lastmod of the language pages
+PRESS_LASTMOD = "2026-10-08"  # sitemap lastmod of the press pages
 MP4 = "/assets/video/rikogol-trailer.mp4"
 POSTER = "/assets/video/rikogol-trailer-poster.webp"
 OG_IMAGE = "/press/files/rikogol-main-capsule.jpg"
@@ -34,8 +35,20 @@ OG_IMAGE = "/press/files/rikogol-main-capsule.jpg"
 HOME_ORDER = ["en", "tr", "de", "ru", "ptbr", "es", "fr"]
 PRESS_ORDER = ["en", "tr", "ptbr", "es"]
 GALLERY = [1, 2, 12, 7, 10, 6, 11, 9, 5, 4, 14, 15, 3, 13, 8, 16]
+# the game's languages (Steam store, 8 since v1.5); the site itself has the 7 of HOME_ORDER
 LANG_NAMES = [("en", "English"), ("tr", "Türkçe"), ("de", "Deutsch"), ("ru", "Русский"),
-              ("pt-BR", "Português (Brasil)"), ("es-419", "Español (Latinoamérica)"), ("fr", "Français")]
+              ("pt-BR", "Português (Brasil)"), ("es-419", "Español (Latinoamérica)"), ("fr", "Français"),
+              ("zh-CN", "简体中文")]
+
+# Press-page news, newest first: key -> (ISO date, Steam announcement, id of the h3 that labels the article).
+# Each content module's P["news"] holds the copy of every entry, under the same keys and in this order.
+NEWS = {
+    "v161": ("2026-10-05", ANN + "687518426922485684", "release-v161-title"),
+    "v160": ("2026-10-04", ANN + "687518426922485607", "release-v160-title"),
+    "v150": ("2026-10-02", ANN + "687518426922484737", "release-v150-title"),
+    "v14": ("2026-09-30", ANN + "687518426922483728", "release-title"),
+}
+LATEST = "v160"  # the update the home pages' "latest update" band names and links to
 
 CSP = ("default-src 'self'; img-src 'self' data:; media-src 'self'; font-src 'self'; style-src 'self'; "
        "script-src 'self'; frame-src https://store.steampowered.com; connect-src 'self'; object-src 'none'; "
@@ -51,6 +64,10 @@ for _code in list(HOME_ORDER):
             raise
         HOME_ORDER.remove(_code)
 PRESS_ORDER = [k for k in PRESS_ORDER if k in MODS and hasattr(MODS[k], "P")]
+for _code in PRESS_ORDER:
+    _keys = [e["key"] for e in MODS[_code].P["news"]]
+    if _keys != list(NEWS):
+        sys.exit(f"tools/content/{_code}.py: news keys {_keys} differ from NEWS {list(NEWS)}")
 
 
 def esc(s):
@@ -338,7 +355,7 @@ def home_page(code):
     phref = press_href(c)
     nav = [(u["nav"][0], "#features"), (u["nav"][1], "#screenshots"), (u["nav"][2], "#community"),
            (u["nav"][3], phref)]
-    ann = f"{ANN}?l={c['steam_l']}"
+    ann = f"{NEWS[LATEST][1]}?l={c['steam_l']}"
     facts = "\n".join(f"<li>{brandify(esc(x))}</li>" for x in c["hero"]["facts"])
     features = "\n".join(feature_block(c, f, i) for i, f in enumerate(c["features"]))
     extras = []
@@ -486,6 +503,24 @@ PREVIEW_DIMS = {"logo": (480, 136), "icon": (256, 256), "header": (460, 215), "m
                 "vertical": (374, 448), "keyart": (960, 310)}
 
 
+def news_article(c, p, e):
+    """One news entry; "dateline" (bold lead-in of the first paragraph) and "about" are optional."""
+    date, url, anchor = NEWS[e["key"]]
+    paras = [esc(x) for x in e["paras"]]
+    if e.get("dateline"):
+        paras[0] = f"<strong>{esc(e['dateline'])}</strong> — {paras[0]}"
+    lines = [f'<article class="release" aria-labelledby="{anchor}">',
+             f'<p class="release-date"><time datetime="{date}">{esc(e["date"])}</time></p>',
+             f'<h3 id="{anchor}">{esc(e["headline"])}</h3>',
+             f'<p class="standfirst">{esc(e["standfirst"])}</p>']
+    lines += [f"<p>{x}</p>" for x in paras]
+    if e.get("about"):
+        lines += [f'<h4>{brandify(esc(e["about_title"]))}</h4>', f'<p>{esc(e["about"])}</p>']
+    lines += [f'<p><a class="text-link" href="{esc(url + "?l=" + c["steam_l"])}">{esc(p["news_read"])}'
+              f'{icon("external", "icon icon-sm")}</a></p>', "</article>"]
+    return "\n".join(lines)
+
+
 def press_page(code):
     c = MODS[code].C
     p = MODS[code].P
@@ -501,9 +536,7 @@ def press_page(code):
         else:
             val = fill(v, **links)
         facts.append(f"<div><dt>{brandify(esc(k))}</dt><dd>{val}</dd></div>")
-    rel = p["release"]
-    paras = [f"<p><strong>{esc(rel['dateline'])}</strong> — {esc(rel['paras'][0])}</p>"]
-    paras += [f"<p>{esc(x)}</p>" for x in rel["paras"][1:]]
+    news = "\n".join(news_article(c, p, e) for e in p["news"])
     cards = []
     for key, fname, prev, w, h in PRESS_ASSETS:
         pw, ph = PREVIEW_DIMS[key]
@@ -561,15 +594,7 @@ def press_page(code):
 <section class="press-section" id="news" aria-labelledby="news-title">
 <div class="wrap narrow">
 <h2 id="news-title" class="section-title">{esc(p["news_title"])}</h2>
-<article class="release" aria-labelledby="release-title">
-<p class="release-date"><time datetime="2026-09-30">{esc(rel["date"])}</time></p>
-<h3 id="release-title">{esc(rel["headline"])}</h3>
-<p class="standfirst">{esc(rel["standfirst"])}</p>
-{chr(10).join(paras)}
-<h4>{brandify(esc(rel["about_title"]))}</h4>
-<p>{esc(rel["about"])}</p>
-<p><a class="text-link" href="{esc(ANN + "?l=" + c["steam_l"])}">{esc(rel["read"])}{icon("external", "icon icon-sm")}</a></p>
-</article>
+{news}
 </div>
 </section>
 
@@ -650,14 +675,14 @@ def page_404():
 
 
 def sitemap():
-    groups = [([(MODS[k].C["hreflang"], MODS[k].C["path"]) for k in HOME_ORDER], "/"),
-              ([(MODS[k].C["hreflang"], MODS[k].P["path"]) for k in PRESS_ORDER], "/press/")]
+    groups = [([(MODS[k].C["hreflang"], MODS[k].C["path"]) for k in HOME_ORDER], "/", HOME_LASTMOD),
+              ([(MODS[k].C["hreflang"], MODS[k].P["path"]) for k in PRESS_ORDER], "/press/", PRESS_LASTMOD)]
     urls = []
-    for alts, default in groups:
+    for alts, default, lastmod in groups:
         for _, path in alts:
             links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{hl}" href="{SITE}{p}"/>' for hl, p in alts)
             links += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{default}"/>'
-            urls.append(f"  <url>\n    <loc>{SITE}{path}</loc>\n    <lastmod>{LASTMOD}</lastmod>{links}\n  </url>")
+            urls.append(f"  <url>\n    <loc>{SITE}{path}</loc>\n    <lastmod>{lastmod}</lastmod>{links}\n  </url>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
            + "\n".join(urls) + "\n</urlset>\n")

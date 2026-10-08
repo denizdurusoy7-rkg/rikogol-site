@@ -7,10 +7,10 @@ Publisher:       Deniz Durusoy
 Based in:        Turkey
 Release date:    September 14, 2026 (Early Access)
 Status:          Early Access
-Current version: v1.4, the Matchday Update
+Current version: v1.6.1, the Couch Co-op Update and its hotfix
 Platforms:       Windows, macOS (Steam)
-Players:         1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline
-Languages:       English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French
+Players:         1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline, also with two players on one PC (couch co-op); full controller support
+Languages:       English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French, Simplified Chinese
 Achievements:    65 Steam Achievements
 Steam:           https://store.steampowered.com/app/4492690/Rikogol/
 Website:         https://rikogol.com
@@ -35,7 +35,7 @@ KEY FEATURES
 - Steam invites, match browser, lobby and in-match chat over Steam Relay
 - Five atmospheres, four stadiums and stands that fill up with more players
 - Colour-blind team palettes, high-contrast mode, rebindable controls
-- 65 Steam Achievements, Steam Cloud, 7 languages
+- 65 Steam Achievements, Steam Cloud, 8 languages
 
 ABOUT THE DEVELOPER
 ------------------------------------------------------------

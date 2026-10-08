@@ -1,5 +1,5 @@
 # Türkçe metin. Özellik ifadeleri canlı Steam mağaza metninden (appdetails, l=turkish);
-# v1.4 bilgileri yayımlanan Maç Günü duyurusundan.
+# güncelleme bilgileri (son güncelleme satırı, haberler, güncel sürüm) yayımlanan Steam duyurularından.
 C = {
     "code": "tr",
     "lang": "tr",
@@ -43,13 +43,14 @@ C = {
         "tagline": "Gerçek fizikli arcade futbol, arkadaşlarınla online.",
         "sub": "1v1 düellodan, iki tarafta birer teknik direktörün olduğu 11v11 derbiye. "
                "İki tuş, sıfır istatistik, faul yok, ofsayt yok — sadece yetenek.",
-        "facts": ["Erken Erişim", "Windows ve macOS", "24 oyuncuya kadar", "7 dil"],
+        "facts": ["Erken Erişim", "Windows ve macOS", "24 oyuncuya kadar", "8 dil"],
     },
     "band": {
         "kicker": "Yayında",
         "title": "Şimdi Erken Erişimde",
-        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.4 Maç Günü ile gol sevinci, takımların "
-                "taraf değiştirdiği gerçek bir devre arası ve kalabalık maçlarda daha akıllı botlar geldi.",
+        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.6 Kanepe Güncellemesi ile tek PC'de "
+                "iki oyunculu Botlara Karşı ve tam kontrolcü desteği geldi; ardından v1.6.1 hotfix'i üç küçük "
+                "düzeltme getirdi.",
         "link": "Güncelleme notlarını oku",
     },
     "pitch": {
@@ -142,7 +143,7 @@ C = {
             "text": "Antrenman her an açık: tek başına şut çalış ya da botlara karşı oyna. Steam Bulut sayesinde ayarların "
                     "her bilgisayarda aynı kalır.",
         },
-        {"icon": "globe", "title": "7 dil", "langs": True},
+        {"icon": "globe", "title": "8 dil", "langs": True},
     ],
     "gallery": {
         "kicker": "Ekran görüntüleri",
@@ -186,8 +187,8 @@ C = {
 P = {
     "path": "/tr/press/",
     "title": "Rikogol basın kiti — künye, haberler, logolar ve görseller",
-    "description": "Rikogol basın kiti: künye, v1.4 Maç Günü haberi, logolar, ana görseller, ekran görüntüleri ve "
-                   "fragman. Gerçek fizikli arcade futbol, Steam'de Erken Erişimde.",
+    "description": "Rikogol basın kiti: künye, v1.6 Kanepe Güncellemesi haberi, logolar, ana görseller, ekran "
+                   "görüntüleri ve fragman. Gerçek fizikli arcade futbol, Steam'de Erken Erişimde.",
     "nav": ["Oyun", "Künye", "Haberler", "İndir", "İletişim"],
     "h1": "Basın kiti",
     "intro": "Rikogol hakkında yazmak için gereken her şey burada: temel bilgiler, tanıtım metni, son haber, logolar, "
@@ -202,10 +203,12 @@ P = {
         ("Konum", "Türkiye"),
         ("Çıkış tarihi", "14 Eylül 2026 (Erken Erişim)"),
         ("Durum", "Erken Erişim"),
-        ("Güncel sürüm", "v1.4, Maç Günü güncellemesi"),
+        ("Güncel sürüm", "v1.6.1, Kanepe Güncellemesi ve hotfix'i"),
         ("Platformlar", "Windows, macOS (Steam)"),
-        ("Oyuncular", "Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır"),
-        ("Diller", "İngilizce, Türkçe, Almanca, Rusça, Brezilya Portekizcesi, Latin Amerika İspanyolcası, Fransızca"),
+        ("Oyuncular", "Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır, "
+                      "tek PC'de iki oyuncuyla da; tam kontrolcü desteği"),
+        ("Diller", "İngilizce, Türkçe, Almanca, Rusça, Brezilya Portekizcesi, Latin Amerika İspanyolcası, "
+                   "Fransızca, Basitleştirilmiş Çince"),
         ("Başarımlar", "65 Steam Başarımı"),
         ("Steam", "{store}"),
         ("Web sitesi", "https://rikogol.com"),
@@ -235,42 +238,84 @@ P = {
         "Steam daveti, maç tarayıcısı, lobi ve maç içi sohbet; altyapıda Steam Relay",
         "Beş atmosfer, dört stadyum ve kadrolar büyüdükçe dolan tribünler",
         "Renk körlüğüne uygun takım paletleri, yüksek kontrast modu, yeniden atanabilir kontroller",
-        "65 Steam Başarımı, Steam Bulut, 7 dil",
+        "65 Steam Başarımı, Steam Bulut, 8 dil",
     ],
-    "news_title": "Son haber",
-    "release": {
-        "date": "30 Eylül 2026",
-        "headline": "Rikogol v1.4 Maç Günü: gol sevinci, gerçek bir devre arası ve daha akıllı botlar",
-        "standfirst": "Online fizik futbolu oyununun 1.4 sürümü, Steam'de Windows ve macOS için Erken Erişimde yayında.",
-        "dateline": "TÜRKİYE, 30 Eylül 2026",
-        "paras": [
-            "Bağımsız geliştirici Deniz Durusoy, arkadaşlarla online oynanan gerçek fizikli arcade futbol oyunu "
-            "Rikogol için 1.4 sürümü olan Maç Günü güncellemesini yayımladı. Güncelleme, çevrimiçi maçlara da "
-            "Antrenman'a da gerçek bir maç gününün ritmini getiriyor.",
-            "Artık her golün bir anı var. Gol olduktan sonra maç 2,5 saniyelik bir gol sevinci için duraklıyor: saat "
-            "duruyor, bu arada gol sayılmıyor, oyuncular tribünlere koşup takımlarıyla sevinebiliyor ve GOL! bandı "
-            "sevinç boyunca ekranda kalıyor. Ardından golü yiyen takım başlama vuruşunu yapıyor. Maçı bitiren gol "
-            "bile bitiş düdüğünden önce sevincini tam yaşıyor.",
-            "Süre limiti olan maçlarda ilk yarı bitince saat duruyor ve 5 saniyelik bir devre arası başlıyor. Düdük çalıyor, "
-            "«Devre arası / Takımlar taraf değiştiriyor» bandı ekrana geliyor; ardından takımlar taraf değiştiriyor ve "
-            "maçı başlatmayan takım ikinci yarıyı başlatıyor. Teknik direktörün yönettiği takımlarda diziliş de "
-            "takımla birlikte yeni yarı sahasına geçiyor.",
-            "Botlar da 11v11'e kadar kalabalık maçlarda daha akıllı oynuyor. Artık birbirlerini itmiyor; takım "
-            "arkadaşlarına yol veriyor, rakiplerine yaslanmak yerine onları mesafeli markajla tutuyor ve kendi "
-            "kalecilerinin alanından uzak duruyorlar. İki molada da oyunu bırakıp yerlerine yürüyorlar.",
-            "1.4 sürümü ayrıca topun taç çizgisi yanında takılı kalabildiği iki nadir durumu düzeltiyor, yedi dilin "
-            "hepsinde harf aralığını ve menülerdeki tuş ipuçlarını toparlıyor. Bir maçtaki herkesin aynı sürümü "
-            "kullanması gerekiyor; Steam oyunu normalde kendiliğinden güncelliyor.",
-        ],
-        "about_title": "Rikogol hakkında",
-        "about": "Rikogol, arkadaşlarla online oynanan gerçek fizikli bir arcade futbol oyunu. Maçlar 1v1 düellolardan "
-                 "11v11 derbilere kadar uzanıyor; tek maçta 24 kişiye kadar yer var ve buna iki tarafta takımı kenardan "
-                 "yöneten birer teknik direktör de dahil. Arkadaşlar Steam davetiyle katılıyor, maçlar port açmaya "
-                 "gerek kalmadan Steam Relay üzerinden oynanıyor, kimse yokken de üç seviyede botlar hazır bekliyor. "
-                 "Rikogol, 14 Eylül 2026'da Windows ve macOS için Steam'de Erken Erişime çıktı; 7 dil desteği ve 65 "
-                 "Steam Başarımı sunuyor.",
-        "read": "Güncelleme notlarının tamamını Steam'de okuyun",
-    },
+    "news_title": "Son haberler",
+    "news_read": "Güncelleme notlarının tamamını Steam'de okuyun",
+    # en yenisi en üstte; her anahtarın tarihi, Steam bağlantısı ve öğe kimliği NEWS'te (tools/build.py)
+    "news": [
+        {
+            "key": "v161",
+            "date": "5 Ekim 2026",
+            "headline": "Rikogol v1.6.1 Hotfix: Steam dili, Steam Cloud'daki ayarlar ve davetler",
+            "standfirst": "Rikogol'u Steam'den başlatan herkes için üç düzeltme içeren küçük bir güncelleme.",
+            "paras": [
+                "Rikogol, Steam'de kullanılan dil oyunun 8 dilinden biriyse artık ilk açılışta o dilde başlıyor; "
+                "ayarlar da artık Steam Cloud üzerinden bir bilgisayardan diğerine taşınıyor. Rikogol açık değilken "
+                "bir Steam daveti kabul edilirse oyun açılıyor ve artık oyuncuyu doğrudan davet edildiği lobiye "
+                "götürüyor.",
+            ],
+        },
+        {
+            "key": "v160",
+            "date": "4 Ekim 2026",
+            "headline": "Rikogol'da Kanepe Güncellemesi: tek PC'de iki oyuncu ve tam kontrolcü desteği",
+            "standfirst": "1.6.0 sürümüyle artık aynı bilgisayarda iki kişi Botlara Karşı oynayabiliyor; oyunun "
+                          "tamamı da ana menüden son düdüğe kadar kontrolcüyle oynanabiliyor.",
+            "paras": [
+                "İkinci oyuncu kendi şut tuşuna basarak kontrolcüyle ya da aynı klavyeyle katılıyor; iki oyuncu tek "
+                "ortak ekranda botlara karşı aynı takımda oynayabiliyor ya da birbirine rakip olabiliyor, çevrimiçi "
+                "maçlarda ise her bilgisayarda yine tek oyuncu oynuyor. Artık her menüde ve her maçta Xbox, "
+                "PlayStation (DualShock 4 ve DualSense) ve Switch Pro kontrolcüleri kullanılabiliyor; Steam Remote "
+                "Play Together ile bir arkadaş da kendi bilgisayarından P2 olarak katılabiliyor.",
+            ],
+        },
+        {
+            "key": "v150",
+            "date": "2 Ekim 2026",
+            "headline": "Rikogol'da Akıcı Güncelleme: akıcı çevrimiçi maçlar + Basitleştirilmiş Çince",
+            "standfirst": "1.5.0 sürümüyle çevrimiçi maçlar artık maça katılan oyuncular için de host için zaten "
+                          "olduğu kadar akıcı; Rikogol artık Basitleştirilmiş Çince de konuşuyor.",
+            "paras": [
+                "Diğer oyuncular, top ve kamera artık her oyuncunun ekranında akıcı biçimde süzülüyor; fizik, "
+                "kurallar ve oynanışa dair her sayı ise tamamen eskisi gibi. Basitleştirilmiş Çince oyunun "
+                "sekizinci arayüz dili oldu: tüm menüler, maç ekranı ve tüm mesajlar çevrildi.",
+            ],
+        },
+        {
+            "key": "v14",
+            "date": "30 Eylül 2026",
+            "headline": "Rikogol v1.4 Maç Günü: gol sevinci, gerçek bir devre arası ve daha akıllı botlar",
+            "standfirst": "Online fizik futbolu oyununun 1.4 sürümü, Steam'de Windows ve macOS için Erken Erişimde yayında.",
+            "dateline": "TÜRKİYE, 30 Eylül 2026",
+            "paras": [
+                "Bağımsız geliştirici Deniz Durusoy, arkadaşlarla online oynanan gerçek fizikli arcade futbol oyunu "
+                "Rikogol için 1.4 sürümü olan Maç Günü güncellemesini yayımladı. Güncelleme, çevrimiçi maçlara da "
+                "Antrenman'a da gerçek bir maç gününün ritmini getiriyor.",
+                "Artık her golün bir anı var. Gol olduktan sonra maç 2,5 saniyelik bir gol sevinci için duraklıyor: saat "
+                "duruyor, bu arada gol sayılmıyor, oyuncular tribünlere koşup takımlarıyla sevinebiliyor ve GOL! bandı "
+                "sevinç boyunca ekranda kalıyor. Ardından golü yiyen takım başlama vuruşunu yapıyor. Maçı bitiren gol "
+                "bile bitiş düdüğünden önce sevincini tam yaşıyor.",
+                "Süre limiti olan maçlarda ilk yarı bitince saat duruyor ve 5 saniyelik bir devre arası başlıyor. Düdük çalıyor, "
+                "«Devre arası / Takımlar taraf değiştiriyor» bandı ekrana geliyor; ardından takımlar taraf değiştiriyor ve "
+                "maçı başlatmayan takım ikinci yarıyı başlatıyor. Teknik direktörün yönettiği takımlarda diziliş de "
+                "takımla birlikte yeni yarı sahasına geçiyor.",
+                "Botlar da 11v11'e kadar kalabalık maçlarda daha akıllı oynuyor. Artık birbirlerini itmiyor; takım "
+                "arkadaşlarına yol veriyor, rakiplerine yaslanmak yerine onları mesafeli markajla tutuyor ve kendi "
+                "kalecilerinin alanından uzak duruyorlar. İki molada da oyunu bırakıp yerlerine yürüyorlar.",
+                "1.4 sürümü ayrıca topun taç çizgisi yanında takılı kalabildiği iki nadir durumu düzeltiyor, yedi dilin "
+                "hepsinde harf aralığını ve menülerdeki tuş ipuçlarını toparlıyor. Bir maçtaki herkesin aynı sürümü "
+                "kullanması gerekiyor; Steam oyunu normalde kendiliğinden güncelliyor.",
+            ],
+            "about_title": "Rikogol hakkında",
+            "about": "Rikogol, arkadaşlarla online oynanan gerçek fizikli bir arcade futbol oyunu. Maçlar 1v1 düellolardan "
+                     "11v11 derbilere kadar uzanıyor; tek maçta 24 kişiye kadar yer var ve buna iki tarafta takımı kenardan "
+                     "yöneten birer teknik direktör de dahil. Arkadaşlar Steam davetiyle katılıyor, maçlar port açmaya "
+                     "gerek kalmadan Steam Relay üzerinden oynanıyor, kimse yokken de üç seviyede botlar hazır bekliyor. "
+                     "Rikogol, 14 Eylül 2026'da Windows ve macOS için Steam'de Erken Erişime çıktı; 7 dil desteği ve 65 "
+                     "Steam Başarımı sunuyor.",
+        },
+    ],
     "assets_title": "İndirilebilir dosyalar",
     "assets_intro": "Logolar, ana görseller ve ekran görüntüleri Rikogol hakkındaki haber ve incelemelerde serbestçe "
                     "kullanılabilir.",

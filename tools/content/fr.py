@@ -1,5 +1,5 @@
 # Texte français. Formulations reprises du texte en ligne de la page Steam (appdetails, l=french) ;
-# faits de la v1.4 tirés de l'annonce publiée de la mise à jour Jour de match.
+# faits des mises à jour (ligne de la dernière mise à jour) tirés des annonces publiées sur Steam.
 # _typo() pose les espaces insécables de la typographie française (avant : ; ! ? et dans « »).
 import re
 
@@ -61,14 +61,14 @@ C = _typo({
         "tagline": "Du foot arcade à la physique bien réelle, en ligne avec tes amis.",
         "sub": "Du duel 1v1 au derby 11v11 avec un entraîneur de chaque côté. "
                "Deux commandes, zéro statistique, ni faute ni hors-jeu — juste du talent.",
-        "facts": ["Accès anticipé", "Windows et macOS", "Jusqu’à 24 joueurs", "7 langues"],
+        "facts": ["Accès anticipé", "Windows et macOS", "Jusqu’à 24 joueurs", "8 langues"],
     },
     "band": {
         "kicker": "Disponible",
         "title": "Jouable dès maintenant en accès anticipé",
-        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. La dernière mise à jour, Jour de match (v1.4), "
-                "apporte des célébrations de but, une vraie mi-temps avec changement de côté et des bots plus malins "
-                "dans la mêlée.",
+        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. La dernière mise à jour, Coop canapé (v1.6), "
+                "apporte le jeu à deux sur un seul PC en mode Contre les Bots et la prise en charge complète des "
+                "manettes, puis son hotfix v1.6.1 a ajouté trois petits correctifs.",
         "link": "Lire les notes de mise à jour",
     },
     "pitch": {
@@ -166,7 +166,7 @@ C = _typo({
             "text": "L’entraînement à tout moment : affûte tes tirs en solo ou affronte des bots. Steam Cloud garde tes "
                     "réglages sur chaque machine.",
         },
-        {"icon": "globe", "title": "7 langues", "langs": True},
+        {"icon": "globe", "title": "8 langues", "langs": True},
     ],
     "gallery": {
         "kicker": "Captures",

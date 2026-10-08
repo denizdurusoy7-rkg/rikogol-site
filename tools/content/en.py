@@ -1,5 +1,5 @@
 # English copy. Feature wording follows the live Steam store text (appdetails, l=english);
-# v1.4 facts follow the published Matchday Update announcement.
+# update facts (latest-update line, news, current version) follow the published Steam announcements.
 C = {
     "code": "en",
     "lang": "en",
@@ -44,14 +44,14 @@ C = {
         "tagline": "Arcade football with real physics, online with your friends.",
         "sub": "From 1v1 duels to 11v11 derbies with a Head Coach on each side. "
                "Two controls, zero stats, no fouls, no offside — just skill.",
-        "facts": ["Early Access", "Windows & macOS", "Up to 24 players", "7 languages"],
+        "facts": ["Early Access", "Windows & macOS", "Up to 24 players", "8 languages"],
     },
     "band": {
         "kicker": "Out now",
         "title": "Available now in Early Access",
-        "text": "Rikogol launched on Steam on September 14, 2026. The latest update, the v1.4 Matchday Update, "
-                "brings goal celebrations, a real half-time break where teams switch ends, and smarter bots "
-                "in crowded games.",
+        "text": "Rikogol launched on Steam on September 14, 2026. The latest update, the v1.6 Couch Co-op Update, "
+                "brings two players on one PC in Versus Bots and full controller support, and its v1.6.1 hotfix "
+                "followed with three small fixes.",
         "link": "Read the update notes",
     },
     "pitch": {
@@ -147,7 +147,7 @@ C = {
         },
         {
             "icon": "globe",
-            "title": "7 languages",
+            "title": "8 languages",
             "langs": True,
         },
     ],
@@ -193,8 +193,8 @@ C = {
 P = {
     "path": "/press/",
     "title": "Rikogol press kit — facts, news, logos and screenshots",
-    "description": "Rikogol press kit: fact sheet, v1.4 Matchday Update news, logos, key art, screenshots and trailer "
-                   "for the arcade physics football game in Early Access on Steam.",
+    "description": "Rikogol press kit: fact sheet, v1.6 Couch Co-op Update news, logos, key art, screenshots and "
+                   "trailer for the arcade physics football game in Early Access on Steam.",
     "nav": ["Game", "Facts", "News", "Downloads", "Contact"],
     "h1": "Press kit",
     "intro": "Everything you need to write about Rikogol: facts, description, the latest news, logos, key art, "
@@ -208,10 +208,12 @@ P = {
         ("Based in", "Turkey"),
         ("Release date", "September 14, 2026 (Early Access)"),
         ("Status", "Early Access"),
-        ("Current version", "v1.4, the Matchday Update"),
+        ("Current version", "v1.6.1, the Couch Co-op Update and its hotfix"),
         ("Platforms", "Windows, macOS (Steam)"),
-        ("Players", "1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline"),
-        ("Languages", "English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French"),
+        ("Players", "1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline, also with two "
+                    "players on one PC (couch co-op); full controller support"),
+        ("Languages", "English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French, "
+                      "Simplified Chinese"),
         ("Achievements", "65 Steam Achievements"),
         ("Steam", "{store}"),
         ("Website", "https://rikogol.com"),
@@ -241,43 +243,86 @@ P = {
         "Steam invites, match browser, lobby and in-match chat over Steam Relay",
         "Five atmospheres, four stadiums and stands that fill up with more players",
         "Colour-blind team palettes, high-contrast mode, rebindable controls",
-        "65 Steam Achievements, Steam Cloud, 7 languages",
+        "65 Steam Achievements, Steam Cloud, 8 languages",
     ],
     "news_title": "Latest news",
-    "release": {
-        "date": "September 30, 2026",
-        "headline": "Rikogol’s Matchday Update brings goal celebrations, a real half-time and smarter bots",
-        "standfirst": "Version 1.4 of the online physics football game is out now in Early Access on Steam "
-                      "for Windows and macOS.",
-        "dateline": "TURKEY, September 30, 2026",
-        "paras": [
-            "Independent developer Deniz Durusoy has released the Matchday Update, version 1.4 of Rikogol, the "
-            "arcade football game with real physics that friends play together online. The update gives "
-            "every match the rhythm of a real match day, online and in Training alike.",
-            "Goals now get their own moment. After a goal, the match pauses for a 2.5-second celebration: the clock "
-            "stops, no goal can count, and players are free to run toward the stands and celebrate with their "
-            "team while the GOAL! banner stays up. The team that conceded then kicks off, and even the goal that "
-            "decides a match gets its full celebration before the final whistle.",
-            "Matches with a time limit now stop at the half for a five-second half-time break. A whistle blows, "
-            "the “Half time / Teams switch ends” banner goes up, and the teams then swap ends, with the side that "
-            "did not kick off the match starting the second half. When a Head Coach is running a team, the "
-            "formation moves with it to the new end.",
-            "Bots also play smarter in crowded games, all the way up to 11v11. They no longer shove each other: "
-            "they give way to teammates, mark opponents from a distance instead of leaning on them and keep out of "
-            "their own keeper’s space. During both pauses they stop playing and walk back to their places.",
-            "Version 1.4 also fixes two rare cases where the ball could get stuck by the touchline, and tidies up "
-            "letter spacing and menu key hints in all seven languages. Everyone in a match needs the same version, "
-            "and Steam updates the game automatically.",
-        ],
-        "about_title": "About Rikogol",
-        "about": "Rikogol is arcade football with real physics, played online with friends. Matches range from 1v1 "
-                 "duels to 11v11 derbies with up to 24 people, including a Head Coach on each side who runs the team "
-                 "from the touchline. Friends join through Steam invites, matches run over Steam Relay with no port "
-                 "forwarding, and bots at three levels are ready when nobody else is. Rikogol launched in Early "
-                 "Access on Steam on September 14, 2026, for Windows and macOS, in seven languages and with 65 "
-                 "Steam Achievements.",
-        "read": "Read the full update notes on Steam",
-    },
+    "news_read": "Read the full update notes on Steam",
+    # newest first; the ISO date, Steam link and element id of each key are in NEWS (tools/build.py)
+    "news": [
+        {
+            "key": "v161",
+            "date": "October 5, 2026",
+            "headline": "Rikogol v1.6.1 Hotfix: Steam language, Steam Cloud settings and invites",
+            "standfirst": "A small update with three fixes for everyone who starts Rikogol from Steam.",
+            "paras": [
+                "On first launch, Rikogol now opens in the player’s Steam language, if it is one of the game’s 8 "
+                "languages, and settings now stay in sync between computers through Steam Cloud. If a Steam invite "
+                "is accepted while Rikogol is not running, the game starts and now goes straight to the lobby the "
+                "player was invited to.",
+            ],
+        },
+        {
+            "key": "v160",
+            "date": "October 4, 2026",
+            "headline": "Rikogol’s Couch Co-op Update: two players on one PC and full controller support",
+            "standfirst": "With version 1.6.0, two players can now play Versus Bots on one PC, and the whole game "
+                          "can be played on a controller, from the main menu to the final whistle.",
+            "paras": [
+                "The second player joins with their own kick button, on a controller or the same keyboard, and the "
+                "two team up against the bots or play against each other on one shared screen, while online matches "
+                "stay one player per PC. Every menu and every match now works with Xbox, PlayStation (DualShock 4 "
+                "and DualSense) and Switch Pro controllers, and with Steam Remote Play Together a friend can join "
+                "from their own PC as P2.",
+            ],
+        },
+        {
+            "key": "v150",
+            "date": "October 2, 2026",
+            "headline": "Rikogol’s Smooth Update is here: smoother online matches + Simplified Chinese",
+            "standfirst": "With version 1.5.0, online matches look just as smooth for players who join as they "
+                          "already did for the host, and Rikogol now speaks Simplified Chinese.",
+            "paras": [
+                "Other players, the ball and the camera now glide smoothly on every player’s screen, while the "
+                "physics, the rules and every gameplay number stay exactly the same as before. Simplified Chinese "
+                "is now the game’s eighth interface language, with every menu, the match screen and every message "
+                "translated.",
+            ],
+        },
+        {
+            "key": "v14",
+            "date": "September 30, 2026",
+            "headline": "Rikogol’s Matchday Update brings goal celebrations, a real half-time and smarter bots",
+            "standfirst": "Version 1.4 of the online physics football game is out now in Early Access on Steam "
+                          "for Windows and macOS.",
+            "dateline": "TURKEY, September 30, 2026",
+            "paras": [
+                "Independent developer Deniz Durusoy has released the Matchday Update, version 1.4 of Rikogol, the "
+                "arcade football game with real physics that friends play together online. The update gives "
+                "every match the rhythm of a real match day, online and in Training alike.",
+                "Goals now get their own moment. After a goal, the match pauses for a 2.5-second celebration: the clock "
+                "stops, no goal can count, and players are free to run toward the stands and celebrate with their "
+                "team while the GOAL! banner stays up. The team that conceded then kicks off, and even the goal that "
+                "decides a match gets its full celebration before the final whistle.",
+                "Matches with a time limit now stop at the half for a five-second half-time break. A whistle blows, "
+                "the “Half time / Teams switch ends” banner goes up, and the teams then swap ends, with the side that "
+                "did not kick off the match starting the second half. When a Head Coach is running a team, the "
+                "formation moves with it to the new end.",
+                "Bots also play smarter in crowded games, all the way up to 11v11. They no longer shove each other: "
+                "they give way to teammates, mark opponents from a distance instead of leaning on them and keep out of "
+                "their own keeper’s space. During both pauses they stop playing and walk back to their places.",
+                "Version 1.4 also fixes two rare cases where the ball could get stuck by the touchline, and tidies up "
+                "letter spacing and menu key hints in all seven languages. Everyone in a match needs the same version, "
+                "and Steam updates the game automatically.",
+            ],
+            "about_title": "About Rikogol",
+            "about": "Rikogol is arcade football with real physics, played online with friends. Matches range from 1v1 "
+                     "duels to 11v11 derbies with up to 24 people, including a Head Coach on each side who runs the team "
+                     "from the touchline. Friends join through Steam invites, matches run over Steam Relay with no port "
+                     "forwarding, and bots at three levels are ready when nobody else is. Rikogol launched in Early "
+                     "Access on Steam on September 14, 2026, for Windows and macOS, in seven languages and with 65 "
+                     "Steam Achievements.",
+        },
+    ],
     "assets_title": "Downloads",
     "assets_intro": "Logos, key art and screenshots are free to use in coverage of Rikogol.",
     "assets": {

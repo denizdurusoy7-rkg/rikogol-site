@@ -1148,6 +1148,9 @@ ul {
   border-radius: var(--radius);
   background: var(--surface);
 }
+.release + .release {
+  margin-top: 20px;
+}
 .release-date {
   margin-bottom: 8px;
   font: 700 0.85rem/1.4 var(--font-head);

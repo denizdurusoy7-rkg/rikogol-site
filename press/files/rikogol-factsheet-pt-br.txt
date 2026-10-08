@@ -7,10 +7,10 @@ Publicação:            Deniz Durusoy
 País:                  Turquia
 Lançamento:            14 de setembro de 2026 (Acesso Antecipado)
 Status:                Acesso Antecipado
-Versão atual:          v1.4, atualização Dia de Jogo
+Versão atual:          v1.6.1, Atualização co-op de sofá e seu hotfix
 Plataformas:           Windows, macOS (Steam)
-Jogadores:             Online de 1v1 a 11v11, até 24 pessoas por partida; Contra Bots funciona offline
-Idiomas:               Inglês, turco, alemão, russo, português (Brasil), espanhol (América Latina), francês
+Jogadores:             Online de 1v1 a 11v11, até 24 pessoas por partida; Contra Bots funciona offline, também com dois jogadores no mesmo PC (co-op de sofá); suporte total a controle
+Idiomas:               Inglês, turco, alemão, russo, português (Brasil), espanhol (América Latina), francês, chinês simplificado
 Conquistas:            65 Conquistas da Steam
 Steam:                 https://store.steampowered.com/app/4492690/Rikogol/
 Site:                  https://rikogol.com
@@ -35,7 +35,7 @@ PRINCIPAIS RECURSOS
 - Convites da Steam, navegador de partidas, lobby e chat na partida via Steam Relay
 - Cinco atmosferas, quatro estádios e uma torcida que cresce com o número de jogadores
 - Paletas para daltônicos, modo de alto contraste e comandos remapeáveis
-- 65 Conquistas da Steam, Steam Cloud e 7 idiomas
+- 65 Conquistas da Steam, Steam Cloud e 8 idiomas
 
 QUEM FAZ O RIKOGOL
 ------------------------------------------------------------
