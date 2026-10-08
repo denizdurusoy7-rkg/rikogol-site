@@ -251,7 +251,7 @@ P = {
     "news": [
         {
             "key": "v170",
-            "date": "October __D__, 2026",
+            "date": "October 8, 2026",
             "headline": "Rikogol’s Online Update: smoother matches, safer rooms and Head Coach prep",
             "standfirst": "Version 1.7.0 is all about playing online: smoother matches, safer rooms, dedicated prep "
                           "time for Head Coaches, an atmosphere picked by the host and an estimated ping for every "

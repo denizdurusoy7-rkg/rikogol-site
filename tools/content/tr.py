@@ -246,7 +246,7 @@ P = {
     "news": [
         {
             "key": "v170",
-            "date": "__D__ Ekim 2026",
+            "date": "8 Ekim 2026",
             "headline": "Rikogol Çevrimiçi Güncellemesi: akıcı maçlar, güvenli odalar, TD hazırlığı",
             "standfirst": "1.7.0 sürümü tamamen çevrimiçi oyuna odaklanıyor: daha akıcı maçlar, daha güvenli "
                           "odalar, teknik direktörlere dizilişi kurmaları için gerçek bir hazırlık süresi, host'un "

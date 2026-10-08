@@ -260,7 +260,7 @@ P = {
     "news": [
         {
             "key": "v170",
-            "date": "__D__ de octubre de 2026",
+            "date": "8 de octubre de 2026",
             "headline": "Rikogol en línea: partidos más fluidos, salas más seguras y preparación de DT",
             "standfirst": "La versión 1.7.0 está dedicada por completo al juego en línea: partidos más fluidos, "
                           "salas más seguras, un tiempo propio para que cada director técnico (DT) arme su "

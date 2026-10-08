@@ -253,7 +253,7 @@ P = {
     "news": [
         {
             "key": "v170",
-            "date": "__D__ de outubro de 2026",
+            "date": "8 de outubro de 2026",
             "headline": "Rikogol online: partidas fluidas, salas mais seguras e preparo dos técnicos",
             "standfirst": "A versão 1.7.0 é focada no jogo online: partidas mais fluidas, salas mais seguras, um "
                           "tempo de verdade para os técnicos montarem o time, uma atmosfera escolhida pelo "
