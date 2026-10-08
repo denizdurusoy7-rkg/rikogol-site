@@ -48,9 +48,9 @@ C = {
     "band": {
         "kicker": "Yayında",
         "title": "Şimdi Erken Erişimde",
-        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.6 Kanepe Güncellemesi ile tek PC'de "
-                "iki oyunculu Botlara Karşı ve tam kontrolcü desteği geldi; ardından v1.6.1 hotfix'i üç küçük "
-                "düzeltme getirdi.",
+        "text": "Rikogol, 14 Eylül 2026'da Steam'de çıktı. Son güncelleme v1.7 Çevrimiçi Güncellemesi ile daha "
+                "akıcı maçlar, daha güvenli odalar, teknik direktörlere hazırlık süresi, host'un seçtiği atmosfer "
+                "ve her açık maç için tahmini ping geldi.",
         "link": "Güncelleme notlarını oku",
     },
     "pitch": {
@@ -187,7 +187,7 @@ C = {
 P = {
     "path": "/tr/press/",
     "title": "Rikogol basın kiti — künye, haberler, logolar ve görseller",
-    "description": "Rikogol basın kiti: künye, v1.6 Kanepe Güncellemesi haberi, logolar, ana görseller, ekran "
+    "description": "Rikogol basın kiti: künye, v1.7 Çevrimiçi Güncellemesi haberi, logolar, ana görseller, ekran "
                    "görüntüleri ve fragman. Gerçek fizikli arcade futbol, Steam'de Erken Erişimde.",
     "nav": ["Oyun", "Künye", "Haberler", "İndir", "İletişim"],
     "h1": "Basın kiti",
@@ -203,7 +203,7 @@ P = {
         ("Konum", "Türkiye"),
         ("Çıkış tarihi", "14 Eylül 2026 (Erken Erişim)"),
         ("Durum", "Erken Erişim"),
-        ("Güncel sürüm", "v1.6.1, Kanepe Güncellemesi ve hotfix'i"),
+        ("Güncel sürüm", "v1.7.0, Çevrimiçi Güncellemesi"),
         ("Platformlar", "Windows, macOS (Steam)"),
         ("Oyuncular", "Online 1v1'den 11v11'e, maç başına 24 kişiye kadar; Botlara Karşı çevrimdışı da oynanır, "
                       "tek PC'de iki oyuncuyla da; tam kontrolcü desteği"),
@@ -244,6 +244,23 @@ P = {
     "news_read": "Güncelleme notlarının tamamını Steam'de okuyun",
     # en yenisi en üstte; her anahtarın tarihi, Steam bağlantısı ve öğe kimliği NEWS'te (tools/build.py)
     "news": [
+        {
+            "key": "v170",
+            "date": "__D__ Ekim 2026",
+            "headline": "Rikogol Çevrimiçi Güncellemesi: akıcı maçlar, güvenli odalar, TD hazırlığı",
+            "standfirst": "1.7.0 sürümü tamamen çevrimiçi oyuna odaklanıyor: daha akıcı maçlar, daha güvenli "
+                          "odalar, teknik direktörlere dizilişi kurmaları için gerçek bir hazırlık süresi, host'un "
+                          "seçtiği atmosfer ve her açık maç için tahmini ping.",
+            "paras": [
+                "Başkasının odasına katılan oyuncular için oyun artık tüm sahayı tek bir zaman çizgisinde çiziyor: "
+                "eskiden oyuncunun kendi diski her şeyin biraz önünde çiziliyordu ve bu, ekranda topa değen ama "
+                "sayılmayan vuruşlara ve birbirinin içinden geçiyormuş gibi görünen disklere yol açıyordu; bu sebep "
+                "ortadan kalktı, ikisi de artık çok daha nadir yaşanıyor. Teknik Direktör Modu açık odalarda her "
+                "maç artık teknik direktörlerin dizilişi kurduğu kısa bir hazırlıkla başlıyor ve aynı hazırlık "
+                "devre arasında da var; Açık Maçlar da artık her oda için tahmini ping gösteriyor ve en yakın "
+                "odaları en üste koyuyor.",
+            ],
+        },
         {
             "key": "v161",
             "date": "5 Ekim 2026",

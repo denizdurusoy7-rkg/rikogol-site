@@ -49,9 +49,9 @@ C = {
     "band": {
         "kicker": "Auf Steam erhältlich",
         "title": "Jetzt im Early Access",
-        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Das neue Couch-Koop-Update (v1.6) "
-                "bringt Matches zu zweit an einem PC gegen Bots und volle Controller-Unterstützung; danach folgte "
-                "der Hotfix v1.6.1 mit drei kleinen Fixes.",
+        "text": "Rikogol ist am 14. September 2026 auf Steam erschienen. Das neue Online-Update (v1.7) bringt "
+                "flüssigere Matches, sicherere Räume, echte Vorbereitungszeit für Cheftrainer, eine vom Host "
+                "gewählte Atmosphäre und einen geschätzten Ping für jedes offene Spiel.",
         "link": "Alle Details zum Update",
     },
     "pitch": {

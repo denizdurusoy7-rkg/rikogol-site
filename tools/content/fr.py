@@ -66,9 +66,9 @@ C = _typo({
     "band": {
         "kicker": "Disponible",
         "title": "Jouable dès maintenant en accès anticipé",
-        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. La dernière mise à jour, Coop canapé (v1.6), "
-                "apporte le jeu à deux sur un seul PC en mode Contre les Bots et la prise en charge complète des "
-                "manettes, puis son hotfix v1.6.1 a ajouté trois petits correctifs.",
+        "text": "Rikogol est sorti sur Steam le 14 septembre 2026. La dernière mise à jour, Multijoueur (v1.7), "
+                "apporte des matchs en ligne plus fluides, des salons plus sûrs, un vrai temps de préparation pour "
+                "chaque entraîneur, une atmosphère choisie par l’hôte et un ping estimé pour chaque partie ouverte.",
         "link": "Lire les notes de mise à jour",
     },
     "pitch": {

@@ -7,7 +7,7 @@ Publisher:       Deniz Durusoy
 Based in:        Turkey
 Release date:    September 14, 2026 (Early Access)
 Status:          Early Access
-Current version: v1.6.1, the Couch Co-op Update and its hotfix
+Current version: v1.7.0, the Online Update
 Platforms:       Windows, macOS (Steam)
 Players:         1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline, also with two players on one PC (couch co-op); full controller support
 Languages:       English, Turkish, German, Russian, Portuguese (Brazil), Spanish (Latin America), French, Simplified Chinese

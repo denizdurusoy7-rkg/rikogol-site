@@ -49,9 +49,10 @@ C = {
     "band": {
         "kicker": "Já disponível",
         "title": "Em Acesso Antecipado na Steam",
-        "text": "Rikogol chegou à Steam em 14 de setembro de 2026. A atualização mais recente, Co-op de sofá (v1.6), "
-                "traz Contra Bots a dois no mesmo PC e o jogo inteiro no controle, e depois o seu hotfix v1.6.1 "
-                "trouxe três pequenas correções.",
+        "text": "Rikogol chegou à Steam em 14 de setembro de 2026. A atualização mais recente (v1.7), focada no "
+                "jogo online, traz partidas mais fluidas, salas mais seguras, um tempo de verdade para os técnicos "
+                "montarem o time, uma atmosfera escolhida pelo anfitrião e um ping estimado para cada partida "
+                "aberta.",
         "link": "Ler as notas da atualização",
     },
     "pitch": {
@@ -193,7 +194,7 @@ C = {
 P = {
     "path": "/pt-br/press/",
     "title": "Kit de imprensa do Rikogol — ficha técnica, notícias e imagens",
-    "description": "Kit de imprensa do Rikogol: ficha técnica, notícia da Atualização co-op de sofá (v1.6), logos, "
+    "description": "Kit de imprensa do Rikogol: ficha técnica, notícia da Atualização do online (v1.7), logos, "
                    "artes, capturas de tela e trailer.",
     "nav": ["Jogo", "Ficha", "Notícias", "Downloads", "Contato"],
     "h1": "Kit de imprensa",
@@ -209,7 +210,7 @@ P = {
         ("País", "Turquia"),
         ("Lançamento", "14 de setembro de 2026 (Acesso Antecipado)"),
         ("Status", "Acesso Antecipado"),
-        ("Versão atual", "v1.6.1, Atualização co-op de sofá e seu hotfix"),
+        ("Versão atual", "v1.7.0, Atualização do online"),
         ("Plataformas", "Windows, macOS (Steam)"),
         ("Jogadores", "Online de 1v1 a 11v11, até 24 pessoas por partida; Contra Bots funciona offline, também com "
                       "dois jogadores no mesmo PC (co-op de sofá); suporte total a controle"),
@@ -250,6 +251,23 @@ P = {
     "news_read": "Leia as notas completas da atualização na Steam",
     # a mais recente primeiro; a data ISO, o link da Steam e o id de cada chave estão em NEWS (tools/build.py)
     "news": [
+        {
+            "key": "v170",
+            "date": "__D__ de outubro de 2026",
+            "headline": "Rikogol online: partidas fluidas, salas mais seguras e preparo dos técnicos",
+            "standfirst": "A versão 1.7.0 é focada no jogo online: partidas mais fluidas, salas mais seguras, um "
+                          "tempo de verdade para os técnicos montarem o time, uma atmosfera escolhida pelo "
+                          "anfitrião e um ping estimado para cada partida aberta.",
+            "paras": [
+                "Para quem entra na sala de outra pessoa, o jogo agora desenha o campo inteiro numa só linha do "
+                "tempo: antes, o próprio disco era desenhado um pouco à frente de todo o resto, o que causava "
+                "chutes que tocavam a bola na tela, mas não valiam, e discos que pareciam se atravessar; essa causa "
+                "foi eliminada, e os dois problemas agora são bem mais raros. Em salas com o Modo Técnico ativado, "
+                "toda partida agora começa com um breve preparo enquanto os técnicos montam a formação, e o mesmo "
+                "preparo acontece no intervalo; além disso, as Partidas Abertas agora mostram um ping estimado para "
+                "cada sala e listam primeiro as salas mais próximas.",
+            ],
+        },
         {
             "key": "v161",
             "date": "5 de outubro de 2026",

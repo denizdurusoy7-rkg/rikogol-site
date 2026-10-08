@@ -49,9 +49,9 @@ C = {
     "band": {
         "kicker": "Out now",
         "title": "Available now in Early Access",
-        "text": "Rikogol launched on Steam on September 14, 2026. The latest update, the v1.6 Couch Co-op Update, "
-                "brings two players on one PC in Versus Bots and full controller support, and its v1.6.1 hotfix "
-                "followed with three small fixes.",
+        "text": "Rikogol launched on Steam on September 14, 2026. The latest update, the v1.7 Online Update, brings "
+                "smoother online matches, safer rooms, prep time for Head Coaches, an atmosphere picked by the host "
+                "and an estimated ping for every open match.",
         "link": "Read the update notes",
     },
     "pitch": {
@@ -193,8 +193,8 @@ C = {
 P = {
     "path": "/press/",
     "title": "Rikogol press kit — facts, news, logos and screenshots",
-    "description": "Rikogol press kit: fact sheet, v1.6 Couch Co-op Update news, logos, key art, screenshots and "
-                   "trailer for the arcade physics football game in Early Access on Steam.",
+    "description": "Rikogol press kit: fact sheet, v1.7 Online Update news, logos, key art, screenshots and trailer "
+                   "for the arcade physics football game in Early Access on Steam.",
     "nav": ["Game", "Facts", "News", "Downloads", "Contact"],
     "h1": "Press kit",
     "intro": "Everything you need to write about Rikogol: facts, description, the latest news, logos, key art, "
@@ -208,7 +208,7 @@ P = {
         ("Based in", "Turkey"),
         ("Release date", "September 14, 2026 (Early Access)"),
         ("Status", "Early Access"),
-        ("Current version", "v1.6.1, the Couch Co-op Update and its hotfix"),
+        ("Current version", "v1.7.0, the Online Update"),
         ("Platforms", "Windows, macOS (Steam)"),
         ("Players", "1v1 to 11v11 online, up to 24 people per match; Versus Bots works offline, also with two "
                     "players on one PC (couch co-op); full controller support"),
@@ -249,6 +249,22 @@ P = {
     "news_read": "Read the full update notes on Steam",
     # newest first; the ISO date, Steam link and element id of each key are in NEWS (tools/build.py)
     "news": [
+        {
+            "key": "v170",
+            "date": "October __D__, 2026",
+            "headline": "Rikogol’s Online Update: smoother matches, safer rooms and Head Coach prep",
+            "standfirst": "Version 1.7.0 is all about playing online: smoother matches, safer rooms, dedicated prep "
+                          "time for Head Coaches, an atmosphere picked by the host and an estimated ping for every "
+                          "open match.",
+            "paras": [
+                "For players who join someone else’s room, the game now draws the whole pitch on one timeline: "
+                "their own disc used to be drawn slightly ahead of everything else, which caused kicks that touched "
+                "the ball on screen but did not count and discs that seemed to pass through each other, and with "
+                "that cause gone, both are now much rarer. In rooms with Head Coach Mode on, every match now starts "
+                "with a short prep, repeated at half time, for the Head Coaches to set up their formation, and Open "
+                "Matches now shows an estimated ping for each room and lists the nearest rooms first.",
+            ],
+        },
         {
             "key": "v161",
             "date": "October 5, 2026",
